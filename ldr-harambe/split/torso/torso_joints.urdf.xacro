@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Joint from urdf_base to urdf_simplified_torso_sub_assembly -->
+  <joint name="waist_yaw_joint" type="revolute">
+    <origin xyz="0.000698852 0.0333787 -0.300748" rpy="3.14159 -0 0"/>
+    <parent link="urdf_base"/>
+    <child link="urdf_simplified_torso_sub_assembly"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-1.5708" upper="1.5708"/>
+  </joint>
+
+</robot>

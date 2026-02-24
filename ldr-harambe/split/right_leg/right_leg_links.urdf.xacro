@@ -1,0 +1,746 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Link urdf_hip_assembly_2 -->
+  <link name="urdf_hip_assembly_2">
+    <inertial>
+      <origin xyz="-0.00420719 6.05312e-05 -0.0739982" rpy="0 0 0"/>
+      <mass value="1.73"/>
+      <inertia ixx="0.00302291" ixy="-6.10556e-06" ixz="-2.30694e-05" iyy="0.00263542" iyz="1.21542e-06" izz="0.00228746"/>
+    </inertial>
+    <!-- Part hip_2 -->
+    <visual>
+      <origin xyz="0.00253569 -7.30113e-05 -0.0570203" rpy="-1.58667 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/hip.stl"/>
+      </geometry>
+      <material name="hip_2_material">
+        <color rgba="0.0627451 0.266667 0.490196 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00253569 -7.30113e-05 -0.0570203" rpy="-1.58667 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/hip.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part stator_x8_p20_120_unified_6 -->
+    <visual>
+      <origin xyz="-0.0429946 0.000682358 -0.078" rpy="0.0158695 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x8_p20_120_unified.stl"/>
+      </geometry>
+      <material name="stator_x8_p20_120_unified_6_material">
+        <color rgba="0.882353 0.572549 0.478431 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0429946 0.000682358 -0.078" rpy="0.0158695 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x8_p20_120_unified.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Link urdf_r_upper_femur_assemby -->
+  <link name="urdf_r_upper_femur_assemby">
+    <inertial>
+      <origin xyz="0.000405705 -0.147963 0.0457092" rpy="0 0 0"/>
+      <mass value="1.912"/>
+      <inertia ixx="0.00557422" ixy="-5.18237e-05" ixz="-1.24938e-06" iyy="0.00336736" iyz="0.000930579" izz="0.00513139"/>
+    </inertial>
+    <!-- Part r_upper_femur -->
+    <visual>
+      <origin xyz="0.00151505 -0.111761 0.0257733" rpy="-1.5708 0 0"/>
+      <geometry>
+        <mesh filename="package://assets/r_upper_femur.stl"/>
+      </geometry>
+      <material name="r_upper_femur_material">
+        <color rgba="0.941176 0.87451 0.678431 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00151505 -0.111761 0.0257733" rpy="-1.5708 0 0"/>
+      <geometry>
+        <mesh filename="package://assets/r_upper_femur.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part stator_x8_p20_120_unified_7 -->
+    <visual>
+      <origin xyz="-0 -0.124 0.053" rpy="1.5708 0 0"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x8_p20_120_unified.stl"/>
+      </geometry>
+      <material name="stator_x8_p20_120_unified_7_material">
+        <color rgba="0.882353 0.572549 0.478431 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0 -0.124 0.053" rpy="1.5708 0 0"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x8_p20_120_unified.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Link urdf_lower_femur_assembly_2 -->
+  <link name="urdf_lower_femur_assembly_2">
+    <inertial>
+      <origin xyz="-0.00357383 -7.8699e-08 -0.103307" rpy="0 0 0"/>
+      <mass value="1.817"/>
+      <inertia ixx="0.00421827" ixy="9.586e-09" ixz="-0.00019709" iyy="0.00383469" iyz="1.6378e-08" izz="0.00258541"/>
+    </inertial>
+    <!-- Part lower_femur_2 -->
+    <visual>
+      <origin xyz="0.00389134 9.125e-08 -0.070766" rpy="0 0 -3.14157"/>
+      <geometry>
+        <mesh filename="package://assets/lower_femur.stl"/>
+      </geometry>
+      <material name="lower_femur_2_material">
+        <color rgba="0.380392 0.0470588 0.435294 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00389134 9.125e-08 -0.070766" rpy="0 0 -3.14157"/>
+      <geometry>
+        <mesh filename="package://assets/lower_femur.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part stator_x8_p20_120_unified_8 -->
+    <visual>
+      <origin xyz="-0.043 -1.07189e-06 -0.113" rpy="-3.14157 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x8_p20_120_unified.stl"/>
+      </geometry>
+      <material name="stator_x8_p20_120_unified_8_material">
+        <color rgba="0.882353 0.572549 0.478431 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.043 -1.07189e-06 -0.113" rpy="-3.14157 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x8_p20_120_unified.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Link urdf_r_tibia_assembly -->
+  <link name="urdf_r_tibia_assembly">
+    <inertial>
+      <origin xyz="0.0167514 0.277184 0.0511723" rpy="0 0 0"/>
+      <mass value="3.4106"/>
+      <inertia ixx="0.0617297" ixy="-0.00276105" ixz="-0.000269665" iyy="0.00850807" iyz="-0.00321845" izz="0.0648035"/>
+    </inertial>
+    <!-- Part m6_threaded_bar_225mm_2 -->
+    <visual>
+      <origin xyz="0.08085 0.325243 0.0370024" rpy="1.6485 -0.0197641 0.0524438"/>
+      <geometry>
+        <mesh filename="package://assets/m6_threaded_bar_225mm.stl"/>
+      </geometry>
+      <material name="m6_threaded_bar_225mm_2_material">
+        <color rgba="0.27451 0.0117647 0.317647 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.08085 0.325243 0.0370024" rpy="1.6485 -0.0197641 0.0524438"/>
+      <geometry>
+        <mesh filename="package://assets/m6_threaded_bar_225mm.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part m6_threaded_bar_300mm_2 -->
+    <visual>
+      <origin xyz="0.08085 0.287574 0.0739998" rpy="1.4538 -1.15642 0.145218"/>
+      <geometry>
+        <mesh filename="package://assets/m6_threaded_bar_300mm.stl"/>
+      </geometry>
+      <material name="m6_threaded_bar_300mm_2_material">
+        <color rgba="0.141176 0.0352941 0.396078 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.08085 0.287574 0.0739998" rpy="1.4538 -1.15642 0.145218"/>
+      <geometry>
+        <mesh filename="package://assets/m6_threaded_bar_300mm.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part r_tibia -->
+    <visual>
+      <origin xyz="0.000691468 0.182554 0.0429159" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/r_tibia.stl"/>
+      </geometry>
+      <material name="r_tibia_material">
+        <color rgba="0.654902 0.823529 0.576471 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.000691468 0.182554 0.0429159" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/r_tibia.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part stator_x4_p36_36_unified_7 -->
+    <visual>
+      <origin xyz="-0.018 0.16 0.055" rpy="-0 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x4_p36_36_unified.stl"/>
+      </geometry>
+      <material name="stator_x4_p36_36_unified_7_material">
+        <color rgba="0.764706 0.545098 0.803922 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.018 0.16 0.055" rpy="-0 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x4_p36_36_unified.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part spacer_bottom_tibia_2 -->
+    <visual>
+      <origin xyz="-0 0.3755 0.055" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/spacer_bottom_tibia.stl"/>
+      </geometry>
+      <material name="spacer_bottom_tibia_2_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0 0.3755 0.055" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/spacer_bottom_tibia.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part stator_x4_p36_36_unified_8 -->
+    <visual>
+      <origin xyz="-0.018 0.235 0.055" rpy="3.14159 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x4_p36_36_unified.stl"/>
+      </geometry>
+      <material name="stator_x4_p36_36_unified_8_material">
+        <color rgba="0.764706 0.545098 0.803922 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.018 0.235 0.055" rpy="3.14159 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x4_p36_36_unified.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part shoe_2 -->
+    <visual>
+      <origin xyz="0.0303243 0.449431 0.056" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/shoe.stl"/>
+      </geometry>
+      <material name="shoe_2_material">
+        <color rgba="0.0862745 0.321569 0.580392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0303243 0.449431 0.056" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/shoe.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part lower_fixation_leg_lontrol_2 -->
+    <visual>
+      <origin xyz="0.0565 0.424448 0.056" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/lower_fixation_leg_lontrol.stl"/>
+      </geometry>
+      <material name="lower_fixation_leg_lontrol_2_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0565 0.424448 0.056" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/lower_fixation_leg_lontrol.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part foot_2 -->
+    <visual>
+      <origin xyz="0.030138 0.444982 0.056" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/foot.stl"/>
+      </geometry>
+      <material name="foot_2_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.030138 0.444982 0.056" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/foot.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part lever_ankle_3 -->
+    <visual>
+      <origin xyz="0.066 0.235104 0.0496492" rpy="3.14159 -1.55132 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/lever_ankle.stl"/>
+      </geometry>
+      <material name="lever_ankle_3_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.066 0.235104 0.0496492" rpy="3.14159 -1.55132 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/lever_ankle.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part hex_nut_grade_a___b_m6x1__7468f1fe59412d2a2604ecf8e993c3bf_3 -->
+    <visual>
+      <origin xyz="0.0701 0.235487 0.0300047" rpy="-1.5708 -1.55132 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/hex_nut_grade_a___b_m6x1__7468f1fe59412d2a2604ecf8e993c3bf.stl"/>
+      </geometry>
+      <material name="hex_nut_grade_a___b_m6x1__7468f1fe59412d2a2604ecf8e993c3bf_3_material">
+        <color rgba="0.603922 0.647059 0.686275 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0701 0.235487 0.0300047" rpy="-1.5708 -1.55132 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/hex_nut_grade_a___b_m6x1__7468f1fe59412d2a2604ecf8e993c3bf.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part spacer_lever_ankle_3 -->
+    <visual>
+      <origin xyz="0.05375 0.235 0.055" rpy="3.14159 -1.55132 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/spacer_lever_ankle.stl"/>
+      </geometry>
+      <material name="spacer_lever_ankle_3_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.05375 0.235 0.055" rpy="3.14159 -1.55132 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/spacer_lever_ankle.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part rulment_d22_x_d8_x_t7_5 -->
+    <visual>
+      <origin xyz="-0 0.395 0.0655" rpy="-1.5708 0 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/rulment_d22_x_d8_x_t7.stl"/>
+      </geometry>
+      <material name="rulment_d22_x_d8_x_t7_5_material">
+        <color rgba="0.901961 0.901961 0.901961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0 0.395 0.0655" rpy="-1.5708 0 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/rulment_d22_x_d8_x_t7.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part ankle_bearing_house_5 -->
+    <visual>
+      <origin xyz="0 0.389643 0.0681799" rpy="1.5708 -0 -3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/ankle_bearing_house.stl"/>
+      </geometry>
+      <material name="ankle_bearing_house_5_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0.389643 0.0681799" rpy="1.5708 -0 -3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/ankle_bearing_house.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part lever_ankle_4 -->
+    <visual>
+      <origin xyz="0.066 0.160032 0.0603518" rpy="3.14159 1.56488 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/lever_ankle.stl"/>
+      </geometry>
+      <material name="lever_ankle_4_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.066 0.160032 0.0603518" rpy="3.14159 1.56488 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/lever_ankle.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part hex_nut_grade_a___b_m6x1__7468f1fe59412d2a2604ecf8e993c3bf_4 -->
+    <visual>
+      <origin xyz="0.0701 0.160148 0.0799996" rpy="-1.5708 1.56488 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/hex_nut_grade_a___b_m6x1__7468f1fe59412d2a2604ecf8e993c3bf.stl"/>
+      </geometry>
+      <material name="hex_nut_grade_a___b_m6x1__7468f1fe59412d2a2604ecf8e993c3bf_4_material">
+        <color rgba="0.603922 0.647059 0.686275 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0701 0.160148 0.0799996" rpy="-1.5708 1.56488 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/hex_nut_grade_a___b_m6x1__7468f1fe59412d2a2604ecf8e993c3bf.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part spacer_lever_ankle_4 -->
+    <visual>
+      <origin xyz="0.05375 0.16 0.055" rpy="-3.14159 1.56488 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/spacer_lever_ankle.stl"/>
+      </geometry>
+      <material name="spacer_lever_ankle_4_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.05375 0.16 0.055" rpy="-3.14159 1.56488 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/spacer_lever_ankle.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part rulment_d22_x_d8_x_t7_6 -->
+    <visual>
+      <origin xyz="0 0.395 0.0445" rpy="1.5708 0 -0"/>
+      <geometry>
+        <mesh filename="package://assets/rulment_d22_x_d8_x_t7.stl"/>
+      </geometry>
+      <material name="rulment_d22_x_d8_x_t7_6_material">
+        <color rgba="0.901961 0.901961 0.901961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0.395 0.0445" rpy="1.5708 0 -0"/>
+      <geometry>
+        <mesh filename="package://assets/rulment_d22_x_d8_x_t7.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part ankle_bearing_house_6 -->
+    <visual>
+      <origin xyz="0 0.389643 0.0418201" rpy="-1.5708 0 0"/>
+      <geometry>
+        <mesh filename="package://assets/ankle_bearing_house.stl"/>
+      </geometry>
+      <material name="ankle_bearing_house_6_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0.389643 0.0418201" rpy="-1.5708 0 0"/>
+      <geometry>
+        <mesh filename="package://assets/ankle_bearing_house.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part m6_threaded_eye_5 -->
+    <visual>
+      <origin xyz="0.076 0.415 0.068" rpy="0 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/m6_threaded_eye.stl"/>
+      </geometry>
+      <material name="m6_threaded_eye_5_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.076 0.415 0.068" rpy="0 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/m6_threaded_eye.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 12_7mm_ball_with_6mm_hole_5 -->
+    <visual>
+      <origin xyz="0.076 0.415 0.068" rpy="-3.09029 -0.411373 -3.12408"/>
+      <geometry>
+        <mesh filename="package://assets/12_7mm_ball_with_6mm_hole.stl"/>
+      </geometry>
+      <material name="12_7mm_ball_with_6mm_hole_5_material">
+        <color rgba="0.647059 0.647059 0.647059 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.076 0.415 0.068" rpy="-3.09029 -0.411373 -3.12408"/>
+      <geometry>
+        <mesh filename="package://assets/12_7mm_ball_with_6mm_hole.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part rulment_d22_x_d8_x_t7_7 -->
+    <visual>
+      <origin xyz="0.0165 0.423 0.056" rpy="-1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/rulment_d22_x_d8_x_t7.stl"/>
+      </geometry>
+      <material name="rulment_d22_x_d8_x_t7_7_material">
+        <color rgba="0.901961 0.901961 0.901961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0165 0.423 0.056" rpy="-1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/rulment_d22_x_d8_x_t7.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part ankle_bearing_house_7 -->
+    <visual>
+      <origin xyz="0.0191799 0.428357 0.056" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/ankle_bearing_house.stl"/>
+      </geometry>
+      <material name="ankle_bearing_house_7_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0191799 0.428357 0.056" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/ankle_bearing_house.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part m6_threaded_eye_6 -->
+    <visual>
+      <origin xyz="0.076 0.415 0.044" rpy="0 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/m6_threaded_eye.stl"/>
+      </geometry>
+      <material name="m6_threaded_eye_6_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.076 0.415 0.044" rpy="0 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/m6_threaded_eye.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 12_7mm_ball_with_6mm_hole_6 -->
+    <visual>
+      <origin xyz="0.076 0.415 0.044" rpy="1.82013 -1.49062 -1.76692"/>
+      <geometry>
+        <mesh filename="package://assets/12_7mm_ball_with_6mm_hole.stl"/>
+      </geometry>
+      <material name="12_7mm_ball_with_6mm_hole_6_material">
+        <color rgba="0.647059 0.647059 0.647059 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.076 0.415 0.044" rpy="1.82013 -1.49062 -1.76692"/>
+      <geometry>
+        <mesh filename="package://assets/12_7mm_ball_with_6mm_hole.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part rulment_d22_x_d8_x_t7_8 -->
+    <visual>
+      <origin xyz="-0.0165 0.423 0.056" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/rulment_d22_x_d8_x_t7.stl"/>
+      </geometry>
+      <material name="rulment_d22_x_d8_x_t7_8_material">
+        <color rgba="0.901961 0.901961 0.901961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0165 0.423 0.056" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/rulment_d22_x_d8_x_t7.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part ankle_bearing_house_8 -->
+    <visual>
+      <origin xyz="-0.0191799 0.428357 0.056" rpy="1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/ankle_bearing_house.stl"/>
+      </geometry>
+      <material name="ankle_bearing_house_8_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0191799 0.428357 0.056" rpy="1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/ankle_bearing_house.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part m6_threaded_eye_7 -->
+    <visual>
+      <origin xyz="0.0857 0.235487 0.0300047" rpy="-1.5708 -1.55132 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/m6_threaded_eye.stl"/>
+      </geometry>
+      <material name="m6_threaded_eye_7_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0857 0.235487 0.0300047" rpy="-1.5708 -1.55132 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/m6_threaded_eye.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 12_7mm_ball_with_6mm_hole_7 -->
+    <visual>
+      <origin xyz="0.0857 0.235487 0.0300047" rpy="-1.32147 -1.49062 -1.76692"/>
+      <geometry>
+        <mesh filename="package://assets/12_7mm_ball_with_6mm_hole.stl"/>
+      </geometry>
+      <material name="12_7mm_ball_with_6mm_hole_7_material">
+        <color rgba="0.647059 0.647059 0.647059 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0857 0.235487 0.0300047" rpy="-1.32147 -1.49062 -1.76692"/>
+      <geometry>
+        <mesh filename="package://assets/12_7mm_ball_with_6mm_hole.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part m6_threaded_eye_8 -->
+    <visual>
+      <origin xyz="0.0857 0.160148 0.0799996" rpy="-1.5708 1.56488 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/m6_threaded_eye.stl"/>
+      </geometry>
+      <material name="m6_threaded_eye_8_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0857 0.160148 0.0799996" rpy="-1.5708 1.56488 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/m6_threaded_eye.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 12_7mm_ball_with_6mm_hole_8 -->
+    <visual>
+      <origin xyz="0.0857 0.160148 0.0799996" rpy="-3.02459 1.15642 -2.99637"/>
+      <geometry>
+        <mesh filename="package://assets/12_7mm_ball_with_6mm_hole.stl"/>
+      </geometry>
+      <material name="12_7mm_ball_with_6mm_hole_8_material">
+        <color rgba="0.647059 0.647059 0.647059 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0857 0.160148 0.0799996" rpy="-3.02459 1.15642 -2.99637"/>
+      <geometry>
+        <mesh filename="package://assets/12_7mm_ball_with_6mm_hole.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Link ankle_assembly_3 -->
+  <link name="ankle_assembly_3">
+    <inertial>
+      <origin xyz="-0 0.0154553 0.025" rpy="0 0 0"/>
+      <mass value="0.0816337"/>
+      <inertia ixx="2.14344e-05" ixy="0" ixz="0" iyy="1.24715e-05" iyz="-0" izz="1.68911e-05"/>
+    </inertial>
+    <!-- Part upper_ankle_shaft_3 -->
+    <visual>
+      <origin xyz="-0 0.028 0.025" rpy="-1.5708 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/upper_ankle_shaft.stl"/>
+      </geometry>
+      <material name="upper_ankle_shaft_3_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0 0.028 0.025" rpy="-1.5708 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/upper_ankle_shaft.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part ankle_ear_3 -->
+    <visual>
+      <origin xyz="-0 0.0188277 0.025" rpy="-1.5708 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/ankle_ear.stl"/>
+      </geometry>
+      <material name="ankle_ear_3_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0 0.0188277 0.025" rpy="-1.5708 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/ankle_ear.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part ankle_shaft_3 -->
+    <visual>
+      <origin xyz="-0 0 0.025" rpy="-1.5708 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/ankle_shaft.stl"/>
+      </geometry>
+      <material name="ankle_shaft_3_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0 0 0.025" rpy="-1.5708 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/ankle_shaft.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Link ankle_assembly_4 -->
+  <link name="ankle_assembly_4">
+    <inertial>
+      <origin xyz="-0 0.0154553 0.025" rpy="0 0 0"/>
+      <mass value="0.0816337"/>
+      <inertia ixx="2.14344e-05" ixy="0" ixz="0" iyy="1.24715e-05" iyz="-0" izz="1.68911e-05"/>
+    </inertial>
+    <!-- Part upper_ankle_shaft_4 -->
+    <visual>
+      <origin xyz="-0 0.028 0.025" rpy="-1.5708 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/upper_ankle_shaft.stl"/>
+      </geometry>
+      <material name="upper_ankle_shaft_4_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0 0.028 0.025" rpy="-1.5708 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/upper_ankle_shaft.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part ankle_ear_4 -->
+    <visual>
+      <origin xyz="-0 0.0188277 0.025" rpy="-1.5708 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/ankle_ear.stl"/>
+      </geometry>
+      <material name="ankle_ear_4_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0 0.0188277 0.025" rpy="-1.5708 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/ankle_ear.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part ankle_shaft_4 -->
+    <visual>
+      <origin xyz="-0 0 0.025" rpy="-1.5708 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/ankle_shaft.stl"/>
+      </geometry>
+      <material name="ankle_shaft_4_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0 0 0.025" rpy="-1.5708 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/ankle_shaft.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+</robot>

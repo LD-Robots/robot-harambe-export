@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Joint from urdf_simplified_torso_sub_assembly to urdf_r_shoulder_assembly -->
+  <joint name="right_shoulder_pitch_joint_X6" type="revolute">
+    <origin xyz="0.181502 -4.00839e-06 -0.427" rpy="1.5708 0 -1.5708"/>
+    <parent link="urdf_simplified_torso_sub_assembly"/>
+    <child link="urdf_r_shoulder_assembly"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.14159" upper="1.5708"/>
+  </joint>
+
+  <!-- Joint from urdf_r_shoulder_assembly to urdf_r_upper_arm_assembly -->
+  <joint name="right_shoulder_roll_joint_X6" type="revolute">
+    <origin xyz="0.041 0 -0.07" rpy="-3.14159 1.5708 0"/>
+    <parent link="urdf_r_shoulder_assembly"/>
+    <child link="urdf_r_upper_arm_assembly"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="0" upper="3.14159"/>
+  </joint>
+
+  <!-- Joint from urdf_r_upper_arm_assembly to urdf_r_elbow_assembly -->
+  <joint name="right_shoulder_yaw_joint_X4" type="revolute">
+    <origin xyz="0 -0.17 0.041" rpy="-1.5708 -0 0"/>
+    <parent link="urdf_r_upper_arm_assembly"/>
+    <child link="urdf_r_elbow_assembly"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-2.35619" upper="2.35619"/>
+  </joint>
+
+  <!-- Joint from urdf_r_elbow_assembly to urdf_r_upper_forearm_assembly -->
+  <joint name="right_elbow_pitch_joint_X6" type="revolute">
+    <origin xyz="0.04 -0 -0.065" rpy="-1.5708 -0 1.5708"/>
+    <parent link="urdf_r_elbow_assembly"/>
+    <child link="urdf_r_upper_forearm_assembly"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-1.5708" upper="1.5708"/>
+  </joint>
+
+  <!-- Joint from urdf_r_upper_forearm_assembly to urdf_r_lower_forearm_assembly -->
+  <joint name="right_wrist_yaw_joint_X4" type="revolute">
+    <origin xyz="0 0.168 0.04" rpy="1.5708 1.5708 0"/>
+    <parent link="urdf_r_upper_forearm_assembly"/>
+    <child link="urdf_r_lower_forearm_assembly"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-2.35619" upper="2.35619"/>
+  </joint>
+
+  <!-- Joint from urdf_r_lower_forearm_assembly to urdf_r_wrist_assembly -->
+  <joint name="right_wrist_roll_joint_X4" type="revolute">
+    <origin xyz="-0 0.033 -0.0565" rpy="1.5708 -0 -0"/>
+    <parent link="urdf_r_lower_forearm_assembly"/>
+    <child link="urdf_r_wrist_assembly"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-1.5708" upper="1.5708"/>
+  </joint>
+
+</robot>

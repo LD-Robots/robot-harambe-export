@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Joint from urdf_base to urdf_hip_assembly -->
+  <joint name="left_hip_pitch_joint" type="revolute">
+    <origin xyz="-0.111301 0.0333787 -0.467748" rpy="1.5708 0 1.5708"/>
+    <parent link="urdf_base"/>
+    <child link="urdf_hip_assembly"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-1.5708" upper="2.53073"/>
+  </joint>
+
+  <!-- Joint from urdf_hip_assembly to urdf_l_upper_femur_assembly -->
+  <joint name="left_hip_roll_joint" type="revolute">
+    <origin xyz="0.055 0 -0.073" rpy="-0 -1.5708 0"/>
+    <parent link="urdf_hip_assembly"/>
+    <child link="urdf_l_upper_femur_assembly"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.14159" upper="0.349066"/>
+  </joint>
+
+  <!-- Joint from urdf_l_upper_femur_assembly to urdf_lower_femur_assembly -->
+  <joint name="left_hip_yaw_joint" type="revolute">
+    <origin xyz="-0 -0.217 0.053" rpy="-1.5708 0 -0"/>
+    <parent link="urdf_l_upper_femur_assembly"/>
+    <child link="urdf_lower_femur_assembly"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-1.5708" upper="1.5708"/>
+  </joint>
+
+  <!-- Joint from urdf_lower_femur_assembly to urdf_l_tibia_assembly -->
+  <joint name="left_knee_joint" type="revolute">
+    <origin xyz="-0.055 -0 -0.113" rpy="1.5708 0 1.5708"/>
+    <parent link="urdf_lower_femur_assembly"/>
+    <child link="urdf_l_tibia_assembly"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="0" upper="1.5708"/>
+  </joint>
+
+  <!-- Joint from urdf_l_tibia_assembly to ankle_assembly -->
+  <joint name="left_ankle_pitch_joint" type="revolute">
+    <origin xyz="-0 -0.395 0.03" rpy="-3.14159 0 0"/>
+    <parent link="urdf_l_tibia_assembly"/>
+    <child link="ankle_assembly"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-0.785398" upper="0.785398"/>
+  </joint>
+
+  <!-- Joint from urdf_l_tibia_assembly to ankle_assembly_2 (parallel linkage, fixed) -->
+  <joint name="left_ankle_pitch_joint_2" type="fixed">
+    <origin xyz="-0 -0.395 0.03" rpy="-3.14159 0 0"/>
+    <parent link="urdf_l_tibia_assembly"/>
+    <child link="ankle_assembly_2"/>
+  </joint>
+
+</robot>

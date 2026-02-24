@@ -1,0 +1,141 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Link urdf_simplified_torso_sub_assembly -->
+  <link name="urdf_simplified_torso_sub_assembly">
+    <inertial>
+      <origin xyz="0.00587549 -0.00084485 -0.417851" rpy="0 0 0"/>
+      <mass value="9.22071"/>
+      <inertia ixx="0.220452" ixy="2.3692e-08" ixz="-0.000110066" iyy="0.324451" iyz="-0.00208618" izz="0.138166"/>
+    </inertial>
+    <!-- Part urdf_r_plate_shoulder_with_limiter_pla -->
+    <visual>
+      <origin xyz="0.168755 -4.00834e-06 -0.427883" rpy="-3.14159 0 0"/>
+      <geometry>
+        <mesh filename="package://assets/urdf_r_plate_shoulder_with_limiter_pla.stl"/>
+      </geometry>
+      <material name="urdf_r_plate_shoulder_with_limiter_pla_material">
+        <color rgba="0.647059 0.647059 0.647059 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.168755 -4.00834e-06 -0.427883" rpy="-3.14159 0 0"/>
+      <geometry>
+        <mesh filename="package://assets/urdf_r_plate_shoulder_with_limiter_pla.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part urdf_l_plate_shoulder_with_limiter_pla -->
+    <visual>
+      <origin xyz="-0.156752 -4.00839e-06 -0.427883" rpy="3.14159 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/urdf_l_plate_shoulder_with_limiter_pla.stl"/>
+      </geometry>
+      <material name="urdf_l_plate_shoulder_with_limiter_pla_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.156752 -4.00839e-06 -0.427883" rpy="3.14159 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/urdf_l_plate_shoulder_with_limiter_pla.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part stator_x6_p20_60_unified -->
+    <visual>
+      <origin xyz="0.0990017 -4.00839e-06 -0.427" rpy="-3.14159 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x6_p20_60_unified.stl"/>
+      </geometry>
+      <material name="stator_x6_p20_60_unified_material">
+        <color rgba="0.960784 0.835294 0.470588 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0990017 -4.00839e-06 -0.427" rpy="-3.14159 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x6_p20_60_unified.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part stator_x6_p20_60_unified_2 -->
+    <visual>
+      <origin xyz="-0.0869983 -4.00839e-06 -0.427" rpy="0 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x6_p20_60_unified.stl"/>
+      </geometry>
+      <material name="stator_x6_p20_60_unified_2_material">
+        <color rgba="0.960784 0.835294 0.470588 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0869983 -4.00839e-06 -0.427" rpy="0 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x6_p20_60_unified.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part urdf_simplified_torso -->
+    <visual>
+      <origin xyz="0.00600172 -4.00844e-06 -0.2625" rpy="-3.14159 0 0"/>
+      <geometry>
+        <mesh filename="package://assets/urdf_simplified_torso.stl"/>
+      </geometry>
+      <material name="urdf_simplified_torso_material">
+        <color rgba="0.647059 0.647059 0.647059 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00600172 -4.00844e-06 -0.2625" rpy="-3.14159 0 0"/>
+      <geometry>
+        <mesh filename="package://assets/urdf_simplified_torso.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part urdf_torso_pelvis_plate_pla -->
+    <visual>
+      <origin xyz="-0 0 -0.005" rpy="3.14159 -0 -0"/>
+      <geometry>
+        <mesh filename="package://assets/urdf_torso_pelvis_plate_pla.stl"/>
+      </geometry>
+      <material name="urdf_torso_pelvis_plate_pla_material">
+        <color rgba="0.231373 0.380392 0.705882 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0 0 -0.005" rpy="3.14159 -0 -0"/>
+      <geometry>
+        <mesh filename="package://assets/urdf_torso_pelvis_plate_pla.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part head -->
+    <visual>
+      <origin xyz="0.00635981 -4.18304e-05 -0.6725" rpy="-3.14159 0 0"/>
+      <geometry>
+        <mesh filename="package://assets/head.stl"/>
+      </geometry>
+      <material name="head_material">
+        <color rgba="0.737255 0.937255 0.917647 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00635981 -4.18304e-05 -0.6725" rpy="-3.14159 0 0"/>
+      <geometry>
+        <mesh filename="package://assets/head.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part back_access -->
+    <visual>
+      <origin xyz="0.00635981 -4.18304e-05 -0.674429" rpy="-3.14159 0 0"/>
+      <geometry>
+        <mesh filename="package://assets/back_access.stl"/>
+      </geometry>
+      <material name="back_access_material">
+        <color rgba="0.231373 0.380392 0.705882 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00635981 -4.18304e-05 -0.674429" rpy="-3.14159 0 0"/>
+      <geometry>
+        <mesh filename="package://assets/back_access.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+</robot>

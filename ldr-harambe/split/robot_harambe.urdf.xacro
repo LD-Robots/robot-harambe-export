@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<robot name="robot_harambe" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Base -->
+  <xacro:include filename="base/base_links.urdf.xacro"/>
+
+  <!-- Torso -->
+  <xacro:include filename="torso/torso_links.urdf.xacro"/>
+  <xacro:include filename="torso/torso_joints.urdf.xacro"/>
+
+  <!-- Left Arm -->
+  <xacro:include filename="left_arm/left_arm_links.urdf.xacro"/>
+  <xacro:include filename="left_arm/left_arm_joints.urdf.xacro"/>
+
+  <!-- Right Arm -->
+  <xacro:include filename="right_arm/right_arm_links.urdf.xacro"/>
+  <xacro:include filename="right_arm/right_arm_joints.urdf.xacro"/>
+
+  <!-- Left Leg -->
+  <xacro:include filename="left_leg/left_leg_links.urdf.xacro"/>
+  <xacro:include filename="left_leg/left_leg_joints.urdf.xacro"/>
+
+  <!-- Right Leg -->
+  <xacro:include filename="right_leg/right_leg_links.urdf.xacro"/>
+  <xacro:include filename="right_leg/right_leg_joints.urdf.xacro"/>
+
+</robot>

@@ -1,0 +1,250 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Link urdf_r_shoulder_assembly -->
+  <link name="urdf_r_shoulder_assembly">
+    <inertial>
+      <origin xyz="-0.00525946 9.07501e-06 -0.0685921" rpy="0 0 0"/>
+      <mass value="2.84535"/>
+      <inertia ixx="0.00278215" ixy="7.27035e-07" ixz="1.19902e-05" iyy="0.00253762" iyz="-1.82653e-06" izz="0.00243401"/>
+    </inertial>
+    <!-- Part stator_x6_p20_60_unified_5 -->
+    <visual>
+      <origin xyz="-0.0385 0 -0.07" rpy="-0 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x6_p20_60_unified.stl"/>
+      </geometry>
+      <material name="stator_x6_p20_60_unified_5_material">
+        <color rgba="0.960784 0.835294 0.470588 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0385 0 -0.07" rpy="-0 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x6_p20_60_unified.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part r_shoulder -->
+    <visual>
+      <origin xyz="-0.00129067 6.91178e-06 -0.0501448" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/r_shoulder.stl"/>
+      </geometry>
+      <material name="r_shoulder_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00129067 6.91178e-06 -0.0501448" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/r_shoulder.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Link urdf_r_upper_arm_assembly -->
+  <link name="urdf_r_upper_arm_assembly">
+    <inertial>
+      <origin xyz="-9.416e-09 -0.104084 0.0297331" rpy="0 0 0"/>
+      <mass value="0.802"/>
+      <inertia ixx="0.00204755" ixy="-6.95e-10" ixz="1.159e-09" iyy="0.0010158" iyz="0.000468447" izz="0.00188605"/>
+    </inertial>
+    <!-- Part stator_x4_p36_36_unified_4 -->
+    <visual>
+      <origin xyz="0 -0.091 0.041" rpy="1.5708 0 0"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x4_p36_36_unified.stl"/>
+      </geometry>
+      <material name="stator_x4_p36_36_unified_4_material">
+        <color rgba="0.764706 0.545098 0.803922 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 -0.091 0.041" rpy="1.5708 0 0"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x4_p36_36_unified.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part r_upper_arm -->
+    <visual>
+      <origin xyz="-4.6857e-08 -0.0905315 0.020543" rpy="-1.5708 0 0"/>
+      <geometry>
+        <mesh filename="package://assets/r_upper_arm.stl"/>
+      </geometry>
+      <material name="r_upper_arm_material">
+        <color rgba="0.231373 0.380392 0.705882 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-4.6857e-08 -0.0905315 0.020543" rpy="-1.5708 0 0"/>
+      <geometry>
+        <mesh filename="package://assets/r_upper_arm.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Link urdf_r_elbow_assembly -->
+  <link name="urdf_r_elbow_assembly">
+    <inertial>
+      <origin xyz="-0.010381 1.19265e-05 -0.0635916" rpy="0 0 0"/>
+      <mass value="2.93435"/>
+      <inertia ixx="0.00296574" ixy="-3.7473e-07" ixz="-6.85424e-05" iyy="0.00279047" iyz="-2.33715e-06" izz="0.00250864"/>
+    </inertial>
+    <!-- Part r_elbow -->
+    <visual>
+      <origin xyz="0.000331582 1.16025e-05 -0.0512953" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/r_elbow.stl"/>
+      </geometry>
+      <material name="r_elbow_material">
+        <color rgba="0.796078 0.905882 0.745098 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.000331582 1.16025e-05 -0.0512953" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/r_elbow.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part stator_x6_p20_60_unified_6 -->
+    <visual>
+      <origin xyz="-0.0445 0 -0.065" rpy="-3.14159 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x6_p20_60_unified.stl"/>
+      </geometry>
+      <material name="stator_x6_p20_60_unified_6_material">
+        <color rgba="0.960784 0.835294 0.470588 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0445 0 -0.065" rpy="-3.14159 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x6_p20_60_unified.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Link urdf_r_upper_forearm_assembly -->
+  <link name="urdf_r_upper_forearm_assembly">
+    <inertial>
+      <origin xyz="0.00228064 0.101792 0.0327896" rpy="0 0 0"/>
+      <mass value="0.707"/>
+      <inertia ixx="0.00166903" ixy="-1.53798e-05" ixz="-1.15872e-05" iyy="0.000703651" iyz="-0.000352466" izz="0.0014499"/>
+    </inertial>
+    <!-- Part stator_x4_p36_36_unified_5 -->
+    <visual>
+      <origin xyz="0 0.09 0.04" rpy="-1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x4_p36_36_unified.stl"/>
+      </geometry>
+      <material name="stator_x4_p36_36_unified_5_material">
+        <color rgba="0.764706 0.545098 0.803922 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0.09 0.04" rpy="-1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x4_p36_36_unified.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part r_upper_forearm -->
+    <visual>
+      <origin xyz="0.00466986 0.0842107 0.0254856" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/r_upper_forearm.stl"/>
+      </geometry>
+      <material name="r_upper_forearm_material">
+        <color rgba="0.890196 0.698039 0.639216 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00466986 0.0842107 0.0254856" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/r_upper_forearm.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Link urdf_r_lower_forearm_assembly -->
+  <link name="urdf_r_lower_forearm_assembly">
+    <inertial>
+      <origin xyz="-2.4334e-08 -0.00399848 -0.046852" rpy="0 0 0"/>
+      <mass value="0.618"/>
+      <inertia ixx="0.000618602" ixy="1.76e-10" ixz="-5.34e-10" iyy="0.000617307" iyz="-3.83228e-05" izz="0.000437775"/>
+    </inertial>
+    <!-- Part r_lower_forearm -->
+    <visual>
+      <origin xyz="4.2712e-08 0.00205797 -0.0333447" rpy="-0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/r_lower_forearm.stl"/>
+      </geometry>
+      <material name="r_lower_forearm_material">
+        <color rgba="0.941176 0.87451 0.678431 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="4.2712e-08 0.00205797 -0.0333447" rpy="-0 -0 0"/>
+      <geometry>
+        <mesh filename="package://assets/r_lower_forearm.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part stator_x4_p36_36_unified_6 -->
+    <visual>
+      <origin xyz="-0 -0.038 -0.0565" rpy="1.5708 0 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x4_p36_36_unified.stl"/>
+      </geometry>
+      <material name="stator_x4_p36_36_unified_6_material">
+        <color rgba="0.764706 0.545098 0.803922 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0 -0.038 -0.0565" rpy="1.5708 0 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/stator_x4_p36_36_unified.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Link urdf_r_wrist_assembly -->
+  <link name="urdf_r_wrist_assembly">
+    <inertial>
+      <origin xyz="1.54616e-06 -0.104482 0.0275327" rpy="0 0 0"/>
+      <mass value="0.45"/>
+      <inertia ixx="0.001889" ixy="-3.2626e-08" ixz="1.0208e-08" iyy="0.000327099" iyz="9.3721e-05" izz="0.0017356"/>
+    </inertial>
+    <!-- Part r_hand -->
+    <visual>
+      <origin xyz="2.67e-09 -0.135003 0.0303429" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/r_hand.stl"/>
+      </geometry>
+      <material name="r_hand_material">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="2.67e-09 -0.135003 0.0303429" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/r_hand.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part r_wrist -->
+    <visual>
+      <origin xyz="4.44584e-06 -0.0434653 0.0219316" rpy="-1.5708 0 0"/>
+      <geometry>
+        <mesh filename="package://assets/r_wrist.stl"/>
+      </geometry>
+      <material name="r_wrist_material">
+        <color rgba="0.8 0.74902 0.913725 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="4.44584e-06 -0.0434653 0.0219316" rpy="-1.5708 0 0"/>
+      <geometry>
+        <mesh filename="package://assets/r_wrist.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+</robot>
