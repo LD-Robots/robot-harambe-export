@@ -1,0 +1,13 @@
+{
+    "configuration": "default",
+    "documentId": "44eccb8c34362883e6cd3fd1",
+    "documentMicroversion": "6091e93198d22b05803e7ada",
+    "elementId": "9e8e66b1a39e423b0cd0fe05",
+    "fullConfiguration": "default",
+    "id": "MV2Sx7beryt4bnSO6",
+    "isStandardContent": false,
+    "name": "URDF_L_Plate_Shoulder_With_Limiter_PLA <1>",
+    "partId": "RnDD",
+    "suppressed": false,
+    "type": "Part"
+}

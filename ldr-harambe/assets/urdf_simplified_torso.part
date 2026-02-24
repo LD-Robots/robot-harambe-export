@@ -1,0 +1,13 @@
+{
+    "configuration": "default",
+    "documentId": "44eccb8c34362883e6cd3fd1",
+    "documentMicroversion": "6091e93198d22b05803e7ada",
+    "elementId": "bb81638c8bd8fb9745bec890",
+    "fullConfiguration": "default",
+    "id": "Mo99YGh+lJGaUS2tZ",
+    "isStandardContent": false,
+    "name": "URDF_Simplified_Torso <1>",
+    "partId": "JmD",
+    "suppressed": false,
+    "type": "Part"
+}

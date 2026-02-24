@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "config.json": "jsonc"
+    },
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+    "urdf-visualizer.packages": {
+      "robot_harambe": "${workspaceFolder}/ldr-harambe/robot_harambe",
+  },
+}
