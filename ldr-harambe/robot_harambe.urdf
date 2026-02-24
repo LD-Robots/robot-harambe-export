@@ -1666,13 +1666,11 @@
       </geometry>
     </collision>
   </link>
-  <!-- Joint from urdf_l_tibia_assembly to ankle_assembly_2 -->
-  <joint name="left_ankle_pitch_joint" type="revolute">
+  <!-- Joint from urdf_l_tibia_assembly to ankle_assembly_2 (parallel linkage, fixed) -->
+  <joint name="left_ankle_pitch_joint_2" type="fixed">
     <origin xyz="-0 -0.395 0.03" rpy="-3.14159 0 0"/>
     <parent link="urdf_l_tibia_assembly"/>
     <child link="ankle_assembly_2"/>
-    <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-0.785398" upper="0.785398"/>
   </joint>
   <!-- Joint from urdf_lower_femur_assembly to urdf_l_tibia_assembly -->
   <joint name="left_knee_joint" type="revolute">
@@ -2450,13 +2448,11 @@
       </geometry>
     </collision>
   </link>
-  <!-- Joint from urdf_r_tibia_assembly to ankle_assembly_4 -->
-  <joint name="right_ankle_pitch_joint" type="revolute">
+  <!-- Joint from urdf_r_tibia_assembly to ankle_assembly_4 (parallel linkage, fixed) -->
+  <joint name="right_ankle_pitch_joint_2" type="fixed">
     <origin xyz="0.025 0.423 0.056" rpy="-3.14159 1.5708 0"/>
     <parent link="urdf_r_tibia_assembly"/>
     <child link="ankle_assembly_4"/>
-    <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-0.785398" upper="0.785398"/>
   </joint>
   <!-- Joint from urdf_lower_femur_assembly_2 to urdf_r_tibia_assembly -->
   <joint name="right_knee_joint" type="revolute">
