@@ -13,7 +13,7 @@
     <visual>
       <origin xyz="0.00253653 0.0520203 -3.27638e-05" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/hip.stl"/>
+        <mesh filename="package://full_robot_description/meshes/hip.stl"/>
       </geometry>
       <material name="hip_material">
         <color rgba="0.0627451 0.266667 0.490196 1"/>
@@ -22,13 +22,13 @@
     <collision>
       <origin xyz="0.00253653 0.0520203 -3.27638e-05" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/hip.stl"/>
+        <mesh filename="package://full_robot_description/meshes/hip.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.043 0.073 0" rpy="1.5708 0 1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/stator_x8_p20_120_unified.stl"/>
+        <mesh filename="package://full_robot_description/meshes/stator_x8_p20_120_unified.stl"/>
       </geometry>
       <material name="stator_x8_p20_120_unified_4_material">
         <color rgba="0.882353 0.572549 0.478431 1"/>
@@ -37,7 +37,7 @@
     <collision>
       <origin xyz="-0.043 0.073 0" rpy="1.5708 0 1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/stator_x8_p20_120_unified.stl"/>
+        <mesh filename="package://full_robot_description/meshes/stator_x8_p20_120_unified.stl"/>
       </geometry>
     </collision>
   </link>
@@ -51,7 +51,7 @@
     <visual>
       <origin xyz="-0.0257799 0.00151663 -0.111785" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/l_upper_femur.stl"/>
+        <mesh filename="package://full_robot_description/meshes/l_upper_femur.stl"/>
       </geometry>
       <material name="l_upper_femur_material">
         <color rgba="0.141176 0.694118 0.65098 1"/>
@@ -60,13 +60,13 @@
     <collision>
       <origin xyz="-0.0257799 0.00151663 -0.111785" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/l_upper_femur.stl"/>
+        <mesh filename="package://full_robot_description/meshes/l_upper_femur.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.053 4.55477e-07 -0.124" rpy="3.14159 0 1.99137"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/rotor_x8_p20_120.stl"/>
+        <mesh filename="package://full_robot_description/meshes/rotor_x8_p20_120.stl"/>
       </geometry>
       <material name="rotor_x8_p20_120_material">
         <color rgba="0.596078 0.176471 0.0509804 1"/>
@@ -75,13 +75,13 @@
     <collision>
       <origin xyz="-0.053 4.55477e-07 -0.124" rpy="3.14159 0 1.99137"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/rotor_x8_p20_120.stl"/>
+        <mesh filename="package://full_robot_description/meshes/rotor_x8_p20_120.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.053 4.55477e-07 -0.124" rpy="-3.14159 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/stator_x8_p20_120.stl"/>
+        <mesh filename="package://full_robot_description/meshes/stator_x8_p20_120.stl"/>
       </geometry>
       <material name="stator_x8_p20_120_material">
         <color rgba="0.882353 0.572549 0.478431 1"/>
@@ -90,7 +90,7 @@
     <collision>
       <origin xyz="-0.053 4.55477e-07 -0.124" rpy="-3.14159 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/stator_x8_p20_120.stl"/>
+        <mesh filename="package://full_robot_description/meshes/stator_x8_p20_120.stl"/>
       </geometry>
     </collision>
   </link>
@@ -104,7 +104,7 @@
     <visual>
       <origin xyz="5.752e-09 0.00389134 -0.070766" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/lower_femur.stl"/>
+        <mesh filename="package://full_robot_description/meshes/lower_femur.stl"/>
       </geometry>
       <material name="lower_femur_material">
         <color rgba="0.380392 0.0470588 0.435294 1"/>
@@ -113,13 +113,13 @@
     <collision>
       <origin xyz="5.752e-09 0.00389134 -0.070766" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/lower_femur.stl"/>
+        <mesh filename="package://full_robot_description/meshes/lower_femur.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 -0.043 -0.113" rpy="-3.14159 -1.57079 1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/stator_x8_p20_120_unified.stl"/>
+        <mesh filename="package://full_robot_description/meshes/stator_x8_p20_120_unified.stl"/>
       </geometry>
       <material name="stator_x8_p20_120_unified_5_material">
         <color rgba="0.882353 0.572549 0.478431 1"/>
@@ -128,7 +128,7 @@
     <collision>
       <origin xyz="0 -0.043 -0.113" rpy="-3.14159 -1.57079 1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/stator_x8_p20_120_unified.stl"/>
+        <mesh filename="package://full_robot_description/meshes/stator_x8_p20_120_unified.stl"/>
       </geometry>
     </collision>
   </link>
@@ -142,7 +142,7 @@
     <visual>
       <origin xyz="0.0808489 -0.0729994 -0.287625" rpy="0.0610936 0.0269221 0.191443"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/m6_threaded_bar_300mm.stl"/>
+        <mesh filename="package://full_robot_description/meshes/m6_threaded_bar_300mm.stl"/>
       </geometry>
       <material name="m6_threaded_bar_300mm_material">
         <color rgba="0.141176 0.0352941 0.396078 1"/>
@@ -151,13 +151,13 @@
     <collision>
       <origin xyz="0.0808489 -0.0729994 -0.287625" rpy="0.0610936 0.0269221 0.191443"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/m6_threaded_bar_300mm.stl"/>
+        <mesh filename="package://full_robot_description/meshes/m6_threaded_bar_300mm.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0.0808488 -0.0360012 -0.325171" rpy="0.0566165 -0.0643278 -2.97336"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/m6_threaded_bar_225mm.stl"/>
+        <mesh filename="package://full_robot_description/meshes/m6_threaded_bar_225mm.stl"/>
       </geometry>
       <material name="m6_threaded_bar_225mm_material">
         <color rgba="0.27451 0.0117647 0.317647 1"/>
@@ -166,13 +166,13 @@
     <collision>
       <origin xyz="0.0808488 -0.0360012 -0.325171" rpy="0.0566165 -0.0643278 -2.97336"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/m6_threaded_bar_225mm.stl"/>
+        <mesh filename="package://full_robot_description/meshes/m6_threaded_bar_225mm.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0.0303226 -0.054 -0.449431" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/shoe.stl"/>
+        <mesh filename="package://full_robot_description/meshes/shoe.stl"/>
       </geometry>
       <material name="shoe_material">
         <color rgba="0.0862745 0.321569 0.580392 1"/>
@@ -181,13 +181,13 @@
     <collision>
       <origin xyz="0.0303226 -0.054 -0.449431" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/shoe.stl"/>
+        <mesh filename="package://full_robot_description/meshes/shoe.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0.0564984 -0.054 -0.424448" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/lower_fixation_leg_lontrol.stl"/>
+        <mesh filename="package://full_robot_description/meshes/lower_fixation_leg_lontrol.stl"/>
       </geometry>
       <material name="lower_fixation_leg_lontrol_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
@@ -196,13 +196,13 @@
     <collision>
       <origin xyz="0.0564984 -0.054 -0.424448" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/lower_fixation_leg_lontrol.stl"/>
+        <mesh filename="package://full_robot_description/meshes/lower_fixation_leg_lontrol.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0.0301364 -0.054 -0.444982" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/foot.stl"/>
+        <mesh filename="package://full_robot_description/meshes/foot.stl"/>
       </geometry>
       <material name="foot_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
@@ -211,13 +211,13 @@
     <collision>
       <origin xyz="0.0301364 -0.054 -0.444982" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/foot.stl"/>
+        <mesh filename="package://full_robot_description/meshes/foot.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-1.37929e-06 -0.055 -0.3755" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/spacer_bottom_tibia.stl"/>
+        <mesh filename="package://full_robot_description/meshes/spacer_bottom_tibia.stl"/>
       </geometry>
       <material name="spacer_bottom_tibia_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
@@ -226,13 +226,13 @@
     <collision>
       <origin xyz="-1.37929e-06 -0.055 -0.3755" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/spacer_bottom_tibia.stl"/>
+        <mesh filename="package://full_robot_description/meshes/spacer_bottom_tibia.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0.000690997 -0.0429128 -0.182574" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/l_tibia.stl"/>
+        <mesh filename="package://full_robot_description/meshes/l_tibia.stl"/>
       </geometry>
       <material name="l_tibia_material">
         <color rgba="0.513725 0.415686 0.733333 1"/>
@@ -241,13 +241,13 @@
     <collision>
       <origin xyz="0.000690997 -0.0429128 -0.182574" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/l_tibia.stl"/>
+        <mesh filename="package://full_robot_description/meshes/l_tibia.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0.0759985 -0.042 -0.415" rpy="-1.5708 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/m6_threaded_eye.stl"/>
+        <mesh filename="package://full_robot_description/meshes/m6_threaded_eye.stl"/>
       </geometry>
       <material name="m6_threaded_eye_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
@@ -256,13 +256,13 @@
     <collision>
       <origin xyz="0.0759985 -0.042 -0.415" rpy="-1.5708 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/m6_threaded_eye.stl"/>
+        <mesh filename="package://full_robot_description/meshes/m6_threaded_eye.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0.0759985 -0.042 -0.415" rpy="-1.63522 -0.0565022 -1.39892"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/12_7mm_ball_with_6mm_hole.stl"/>
+        <mesh filename="package://full_robot_description/meshes/12_7mm_ball_with_6mm_hole.stl"/>
       </geometry>
       <material name="12_7mm_ball_with_6mm_hole_material">
         <color rgba="0.647059 0.647059 0.647059 1"/>
@@ -271,13 +271,13 @@
     <collision>
       <origin xyz="0.0759985 -0.042 -0.415" rpy="-1.63522 -0.0565022 -1.39892"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/12_7mm_ball_with_6mm_hole.stl"/>
+        <mesh filename="package://full_robot_description/meshes/12_7mm_ball_with_6mm_hole.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0.0164984 -0.054 -0.423" rpy="3.14159 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/rulment_d22_x_d8_x_t7.stl"/>
+        <mesh filename="package://full_robot_description/meshes/rulment_d22_x_d8_x_t7.stl"/>
       </geometry>
       <material name="rulment_d22_x_d8_x_t7_material">
         <color rgba="0.901961 0.901961 0.901961 1"/>
@@ -286,13 +286,13 @@
     <collision>
       <origin xyz="0.0164984 -0.054 -0.423" rpy="3.14159 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/rulment_d22_x_d8_x_t7.stl"/>
+        <mesh filename="package://full_robot_description/meshes/rulment_d22_x_d8_x_t7.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0.0191783 -0.054 -0.428357" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/ankle_bearing_house.stl"/>
+        <mesh filename="package://full_robot_description/meshes/ankle_bearing_house.stl"/>
       </geometry>
       <material name="ankle_bearing_house_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
@@ -301,13 +301,13 @@
     <collision>
       <origin xyz="0.0191783 -0.054 -0.428357" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/ankle_bearing_house.stl"/>
+        <mesh filename="package://full_robot_description/meshes/ankle_bearing_house.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0.0759985 -0.066 -0.415" rpy="-1.5708 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/m6_threaded_eye.stl"/>
+        <mesh filename="package://full_robot_description/meshes/m6_threaded_eye.stl"/>
       </geometry>
       <material name="m6_threaded_eye_2_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
@@ -316,13 +316,13 @@
     <collision>
       <origin xyz="0.0759985 -0.066 -0.415" rpy="-1.5708 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/m6_threaded_eye.stl"/>
+        <mesh filename="package://full_robot_description/meshes/m6_threaded_eye.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0.0759985 -0.066 -0.415" rpy="-1.50971 0.0269221 0.191443"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/12_7mm_ball_with_6mm_hole.stl"/>
+        <mesh filename="package://full_robot_description/meshes/12_7mm_ball_with_6mm_hole.stl"/>
       </geometry>
       <material name="12_7mm_ball_with_6mm_hole_2_material">
         <color rgba="0.647059 0.647059 0.647059 1"/>
@@ -331,13 +331,13 @@
     <collision>
       <origin xyz="0.0759985 -0.066 -0.415" rpy="-1.50971 0.0269221 0.191443"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/12_7mm_ball_with_6mm_hole.stl"/>
+        <mesh filename="package://full_robot_description/meshes/12_7mm_ball_with_6mm_hole.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.0165016 -0.054 -0.423" rpy="-3.14159 0 1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/rulment_d22_x_d8_x_t7.stl"/>
+        <mesh filename="package://full_robot_description/meshes/rulment_d22_x_d8_x_t7.stl"/>
       </geometry>
       <material name="rulment_d22_x_d8_x_t7_2_material">
         <color rgba="0.901961 0.901961 0.901961 1"/>
@@ -346,13 +346,13 @@
     <collision>
       <origin xyz="-0.0165016 -0.054 -0.423" rpy="-3.14159 0 1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/rulment_d22_x_d8_x_t7.stl"/>
+        <mesh filename="package://full_robot_description/meshes/rulment_d22_x_d8_x_t7.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.0191815 -0.054 -0.428357" rpy="0 0 1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/ankle_bearing_house.stl"/>
+        <mesh filename="package://full_robot_description/meshes/ankle_bearing_house.stl"/>
       </geometry>
       <material name="ankle_bearing_house_2_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
@@ -361,13 +361,13 @@
     <collision>
       <origin xyz="-0.0191815 -0.054 -0.428357" rpy="0 0 1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/ankle_bearing_house.stl"/>
+        <mesh filename="package://full_robot_description/meshes/ankle_bearing_house.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-1.45092e-06 -0.0445 -0.395" rpy="0 0 3.14159"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/rulment_d22_x_d8_x_t7.stl"/>
+        <mesh filename="package://full_robot_description/meshes/rulment_d22_x_d8_x_t7.stl"/>
       </geometry>
       <material name="rulment_d22_x_d8_x_t7_3_material">
         <color rgba="0.901961 0.901961 0.901961 1"/>
@@ -376,13 +376,13 @@
     <collision>
       <origin xyz="-1.45092e-06 -0.0445 -0.395" rpy="0 0 3.14159"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/rulment_d22_x_d8_x_t7.stl"/>
+        <mesh filename="package://full_robot_description/meshes/rulment_d22_x_d8_x_t7.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-1.43124e-06 -0.0418201 -0.389643" rpy="3.14159 0 3.14159"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/ankle_bearing_house.stl"/>
+        <mesh filename="package://full_robot_description/meshes/ankle_bearing_house.stl"/>
       </geometry>
       <material name="ankle_bearing_house_3_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
@@ -391,13 +391,13 @@
     <collision>
       <origin xyz="-1.43124e-06 -0.0418201 -0.389643" rpy="3.14159 0 3.14159"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/ankle_bearing_house.stl"/>
+        <mesh filename="package://full_robot_description/meshes/ankle_bearing_house.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.0180006 -0.055 -0.16" rpy="-1.5708 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/rotor_x4_p36_36.stl"/>
+        <mesh filename="package://full_robot_description/meshes/rotor_x4_p36_36.stl"/>
       </geometry>
       <material name="rotor_x4_p36_36_material">
         <color rgba="0.380392 0.0470588 0.435294 1"/>
@@ -406,13 +406,13 @@
     <collision>
       <origin xyz="-0.0180006 -0.055 -0.16" rpy="-1.5708 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/rotor_x4_p36_36.stl"/>
+        <mesh filename="package://full_robot_description/meshes/rotor_x4_p36_36.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.0180006 -0.055 -0.16" rpy="-1.5708 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/stator_x4_p36_36.stl"/>
+        <mesh filename="package://full_robot_description/meshes/stator_x4_p36_36.stl"/>
       </geometry>
       <material name="stator_x4_p36_36_material">
         <color rgba="0.764706 0.545098 0.803922 1"/>
@@ -421,13 +421,13 @@
     <collision>
       <origin xyz="-0.0180006 -0.055 -0.16" rpy="-1.5708 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/stator_x4_p36_36.stl"/>
+        <mesh filename="package://full_robot_description/meshes/stator_x4_p36_36.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.0180009 -0.055 -0.235" rpy="1.5708 0 1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/rotor_x4_p36_36.stl"/>
+        <mesh filename="package://full_robot_description/meshes/rotor_x4_p36_36.stl"/>
       </geometry>
       <material name="rotor_x4_p36_36_2_material">
         <color rgba="0.380392 0.0470588 0.435294 1"/>
@@ -436,13 +436,13 @@
     <collision>
       <origin xyz="-0.0180009 -0.055 -0.235" rpy="1.5708 0 1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/rotor_x4_p36_36.stl"/>
+        <mesh filename="package://full_robot_description/meshes/rotor_x4_p36_36.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-0.0180009 -0.055 -0.235" rpy="1.5708 0 1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/stator_x4_p36_36.stl"/>
+        <mesh filename="package://full_robot_description/meshes/stator_x4_p36_36.stl"/>
       </geometry>
       <material name="stator_x4_p36_36_2_material">
         <color rgba="0.764706 0.545098 0.803922 1"/>
@@ -451,13 +451,13 @@
     <collision>
       <origin xyz="-0.0180009 -0.055 -0.235" rpy="1.5708 0 1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/stator_x4_p36_36.stl"/>
+        <mesh filename="package://full_robot_description/meshes/stator_x4_p36_36.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-1.45092e-06 -0.0655 -0.395" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/rulment_d22_x_d8_x_t7.stl"/>
+        <mesh filename="package://full_robot_description/meshes/rulment_d22_x_d8_x_t7.stl"/>
       </geometry>
       <material name="rulment_d22_x_d8_x_t7_4_material">
         <color rgba="0.901961 0.901961 0.901961 1"/>
@@ -466,13 +466,13 @@
     <collision>
       <origin xyz="-1.45092e-06 -0.0655 -0.395" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/rulment_d22_x_d8_x_t7.stl"/>
+        <mesh filename="package://full_robot_description/meshes/rulment_d22_x_d8_x_t7.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-1.43124e-06 -0.0681799 -0.389643" rpy="-3.14159 0 0"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/ankle_bearing_house.stl"/>
+        <mesh filename="package://full_robot_description/meshes/ankle_bearing_house.stl"/>
       </geometry>
       <material name="ankle_bearing_house_4_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
@@ -481,13 +481,13 @@
     <collision>
       <origin xyz="-1.43124e-06 -0.0681799 -0.389643" rpy="-3.14159 0 0"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/ankle_bearing_house.stl"/>
+        <mesh filename="package://full_robot_description/meshes/ankle_bearing_house.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0.0659991 -0.0496487 -0.235073" rpy="3.14159 -0.0136963 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/lever_ankle.stl"/>
+        <mesh filename="package://full_robot_description/meshes/lever_ankle.stl"/>
       </geometry>
       <material name="lever_ankle_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
@@ -496,13 +496,13 @@
     <collision>
       <origin xyz="0.0659991 -0.0496487 -0.235073" rpy="3.14159 -0.0136963 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/lever_ankle.stl"/>
+        <mesh filename="package://full_robot_description/meshes/lever_ankle.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0.0700991 -0.0300023 -0.235342" rpy="-1.57079 -0.0136963 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/hex_nut_grade_a___b_m6x1__7468f1fe59412d2a2604ecf8e993c3bf.stl"/>
+        <mesh filename="package://full_robot_description/meshes/hex_nut_grade_a___b_m6x1__7468f1fe59412d2a2604ecf8e993c3bf.stl"/>
       </geometry>
       <material name="hex_nut_grade_a___b_m6x1__7468f1fe59412d2a2604ecf8e993c3bf_material">
         <color rgba="0.603922 0.647059 0.686275 1"/>
@@ -511,13 +511,13 @@
     <collision>
       <origin xyz="0.0700991 -0.0300023 -0.235342" rpy="-1.57079 -0.0136963 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/hex_nut_grade_a___b_m6x1__7468f1fe59412d2a2604ecf8e993c3bf.stl"/>
+        <mesh filename="package://full_robot_description/meshes/hex_nut_grade_a___b_m6x1__7468f1fe59412d2a2604ecf8e993c3bf.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0.0537491 -0.055 -0.235" rpy="3.14159 -0.0136963 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/spacer_lever_ankle.stl"/>
+        <mesh filename="package://full_robot_description/meshes/spacer_lever_ankle.stl"/>
       </geometry>
       <material name="spacer_lever_ankle_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
@@ -526,13 +526,13 @@
     <collision>
       <origin xyz="0.0537491 -0.055 -0.235" rpy="3.14159 -0.0136963 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/spacer_lever_ankle.stl"/>
+        <mesh filename="package://full_robot_description/meshes/spacer_lever_ankle.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0.0659994 -0.0603516 -0.160053" rpy="0 -0.00999633 1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/lever_ankle.stl"/>
+        <mesh filename="package://full_robot_description/meshes/lever_ankle.stl"/>
       </geometry>
       <material name="lever_ankle_2_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
@@ -541,13 +541,13 @@
     <collision>
       <origin xyz="0.0659994 -0.0603516 -0.160053" rpy="0 -0.00999633 1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/lever_ankle.stl"/>
+        <mesh filename="package://full_robot_description/meshes/lever_ankle.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0.0700994 -0.0799988 -0.16025" rpy="1.5708 -0.00999633 1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/hex_nut_grade_a___b_m6x1__7468f1fe59412d2a2604ecf8e993c3bf.stl"/>
+        <mesh filename="package://full_robot_description/meshes/hex_nut_grade_a___b_m6x1__7468f1fe59412d2a2604ecf8e993c3bf.stl"/>
       </geometry>
       <material name="hex_nut_grade_a___b_m6x1__7468f1fe59412d2a2604ecf8e993c3bf_2_material">
         <color rgba="0.603922 0.647059 0.686275 1"/>
@@ -556,13 +556,13 @@
     <collision>
       <origin xyz="0.0700994 -0.0799988 -0.16025" rpy="1.5708 -0.00999633 1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/hex_nut_grade_a___b_m6x1__7468f1fe59412d2a2604ecf8e993c3bf.stl"/>
+        <mesh filename="package://full_robot_description/meshes/hex_nut_grade_a___b_m6x1__7468f1fe59412d2a2604ecf8e993c3bf.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0.0537494 -0.055 -0.16" rpy="0 -0.00999633 1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/spacer_lever_ankle.stl"/>
+        <mesh filename="package://full_robot_description/meshes/spacer_lever_ankle.stl"/>
       </geometry>
       <material name="spacer_lever_ankle_2_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
@@ -571,13 +571,13 @@
     <collision>
       <origin xyz="0.0537494 -0.055 -0.16" rpy="0 -0.00999633 1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/spacer_lever_ankle.stl"/>
+        <mesh filename="package://full_robot_description/meshes/spacer_lever_ankle.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0.0856991 -0.0300023 -0.235342" rpy="-1.57079 -0.0136963 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/m6_threaded_eye.stl"/>
+        <mesh filename="package://full_robot_description/meshes/m6_threaded_eye.stl"/>
       </geometry>
       <material name="m6_threaded_eye_3_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
@@ -586,13 +586,13 @@
     <collision>
       <origin xyz="0.0856991 -0.0300023 -0.235342" rpy="-1.57079 -0.0136963 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/m6_threaded_eye.stl"/>
+        <mesh filename="package://full_robot_description/meshes/m6_threaded_eye.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0.0856991 -0.0300023 -0.235342" rpy="-1.51418 -0.0643278 -2.97336"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/12_7mm_ball_with_6mm_hole.stl"/>
+        <mesh filename="package://full_robot_description/meshes/12_7mm_ball_with_6mm_hole.stl"/>
       </geometry>
       <material name="12_7mm_ball_with_6mm_hole_3_material">
         <color rgba="0.647059 0.647059 0.647059 1"/>
@@ -601,13 +601,13 @@
     <collision>
       <origin xyz="0.0856991 -0.0300023 -0.235342" rpy="-1.51418 -0.0643278 -2.97336"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/12_7mm_ball_with_6mm_hole.stl"/>
+        <mesh filename="package://full_robot_description/meshes/12_7mm_ball_with_6mm_hole.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0.0856994 -0.0799988 -0.16025" rpy="1.5708 -0.00999633 1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/m6_threaded_eye.stl"/>
+        <mesh filename="package://full_robot_description/meshes/m6_threaded_eye.stl"/>
       </geometry>
       <material name="m6_threaded_eye_4_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
@@ -616,13 +616,13 @@
     <collision>
       <origin xyz="0.0856994 -0.0799988 -0.16025" rpy="1.5708 -0.00999633 1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/m6_threaded_eye.stl"/>
+        <mesh filename="package://full_robot_description/meshes/m6_threaded_eye.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0.0856994 -0.0799988 -0.16025" rpy="1.50971 -0.0269255 -2.95015"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/12_7mm_ball_with_6mm_hole.stl"/>
+        <mesh filename="package://full_robot_description/meshes/12_7mm_ball_with_6mm_hole.stl"/>
       </geometry>
       <material name="12_7mm_ball_with_6mm_hole_4_material">
         <color rgba="0.647059 0.647059 0.647059 1"/>
@@ -631,7 +631,7 @@
     <collision>
       <origin xyz="0.0856994 -0.0799988 -0.16025" rpy="1.50971 -0.0269255 -2.95015"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/12_7mm_ball_with_6mm_hole.stl"/>
+        <mesh filename="package://full_robot_description/meshes/12_7mm_ball_with_6mm_hole.stl"/>
       </geometry>
     </collision>
   </link>
@@ -645,7 +645,7 @@
     <visual>
       <origin xyz="0 -0.024 0" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/upper_ankle_shaft.stl"/>
+        <mesh filename="package://full_robot_description/meshes/upper_ankle_shaft.stl"/>
       </geometry>
       <material name="upper_ankle_shaft_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
@@ -654,13 +654,13 @@
     <collision>
       <origin xyz="0 -0.024 0" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/upper_ankle_shaft.stl"/>
+        <mesh filename="package://full_robot_description/meshes/upper_ankle_shaft.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-3.36917e-08 -0.024 -0.00917229" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/ankle_ear.stl"/>
+        <mesh filename="package://full_robot_description/meshes/ankle_ear.stl"/>
       </geometry>
       <material name="ankle_ear_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
@@ -669,13 +669,13 @@
     <collision>
       <origin xyz="-3.36917e-08 -0.024 -0.00917229" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/ankle_ear.stl"/>
+        <mesh filename="package://full_robot_description/meshes/ankle_ear.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-1.0285e-07 -0.024 -0.028" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/ankle_shaft.stl"/>
+        <mesh filename="package://full_robot_description/meshes/ankle_shaft.stl"/>
       </geometry>
       <material name="ankle_shaft_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
@@ -684,7 +684,7 @@
     <collision>
       <origin xyz="-1.0285e-07 -0.024 -0.028" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/ankle_shaft.stl"/>
+        <mesh filename="package://full_robot_description/meshes/ankle_shaft.stl"/>
       </geometry>
     </collision>
   </link>
@@ -698,7 +698,7 @@
     <visual>
       <origin xyz="0 -0.024 -6.36862e-08" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/upper_ankle_shaft.stl"/>
+        <mesh filename="package://full_robot_description/meshes/upper_ankle_shaft.stl"/>
       </geometry>
       <material name="upper_ankle_shaft_2_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
@@ -707,13 +707,13 @@
     <collision>
       <origin xyz="0 -0.024 -6.36862e-08" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/upper_ankle_shaft.stl"/>
+        <mesh filename="package://full_robot_description/meshes/upper_ankle_shaft.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-3.36919e-08 -0.024 -0.00917235" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/ankle_ear.stl"/>
+        <mesh filename="package://full_robot_description/meshes/ankle_ear.stl"/>
       </geometry>
       <material name="ankle_ear_2_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
@@ -722,13 +722,13 @@
     <collision>
       <origin xyz="-3.36919e-08 -0.024 -0.00917235" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/ankle_ear.stl"/>
+        <mesh filename="package://full_robot_description/meshes/ankle_ear.stl"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="-1.0285e-07 -0.0239999 -0.0280001" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/ankle_shaft.stl"/>
+        <mesh filename="package://full_robot_description/meshes/ankle_shaft.stl"/>
       </geometry>
       <material name="ankle_shaft_2_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
@@ -737,7 +737,7 @@
     <collision>
       <origin xyz="-1.0285e-07 -0.0239999 -0.0280001" rpy="0 0 -1.5708"/>
       <geometry>
-        <mesh filename="package://full_robot_description/assets/ankle_shaft.stl"/>
+        <mesh filename="package://full_robot_description/meshes/ankle_shaft.stl"/>
       </geometry>
     </collision>
   </link>
