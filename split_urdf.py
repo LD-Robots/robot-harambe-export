@@ -4,8 +4,9 @@
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-URDF_PATH = Path(__file__).parent / "robot_harambe.urdf"
-SPLIT_DIR = Path(__file__).parent / "split"
+SOURCE_DIR = Path(__file__).parent / "ldr-harambe"
+URDF_PATH = SOURCE_DIR / "robot_harambe.urdf"
+SPLIT_DIR = SOURCE_DIR / "split"
 
 XACRO_NS = "http://www.ros.org/wiki/xacro"
 XACRO_HEADER = '<?xml version="1.0" ?>\n<robot xmlns:xacro="http://www.ros.org/wiki/xacro">\n'

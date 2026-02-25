@@ -1,9 +1,10 @@
 import mujoco
 import mujoco.viewer
 import os
+import xml.etree.ElementTree as ET
 
-# Ensure we run from the directory containing the URDF and assets
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
+# Ensure we run from ldr-harambe/ which contains the URDF and assets
+os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), "ldr-harambe"))
 
 urdf_path = "robot_harambe.urdf"
 with open(urdf_path, "r") as f:
@@ -33,8 +34,6 @@ urdf_xml = urdf_xml.replace(
 
 # Add a ground plane via MJCF include trick: save URDF-converted model,
 # then patch in a floor before final load.
-import xml.etree.ElementTree as ET
-
 tmp_model = mujoco.MjModel.from_xml_string(urdf_xml)
 mjcf_path = "robot_harambe_converted.xml"
 mujoco.mj_saveLastXML(mjcf_path, tmp_model)
