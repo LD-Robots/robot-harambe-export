@@ -1,0 +1,13 @@
+{
+    "configuration": "default",
+    "documentId": "a1654a8c4d07fc15a88455e3",
+    "documentMicroversion": "e9fb6eadf50785622f4419ea",
+    "elementId": "7b7ed9ef46ca13fe5682dcaa",
+    "fullConfiguration": "default",
+    "id": "ManqnclAyNrCa74Ux",
+    "isStandardContent": false,
+    "name": "URDF_Simplified_Torso <1>",
+    "partId": "RxEX",
+    "suppressed": false,
+    "type": "Part"
+}

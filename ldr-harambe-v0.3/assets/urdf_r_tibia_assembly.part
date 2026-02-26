@@ -1,0 +1,13 @@
+{
+    "configuration": "default",
+    "documentId": "a1654a8c4d07fc15a88455e3",
+    "documentMicroversion": "e9fb6eadf50785622f4419ea",
+    "elementId": "2c4106f4459ebd48bbae39f4",
+    "fullConfiguration": "default",
+    "id": "MhmdFxXsrjR/p64Dr",
+    "isStandardContent": false,
+    "name": "URDF_R_Tibia_Assembly <1>",
+    "partId": "Z1VBD",
+    "suppressed": false,
+    "type": "Part"
+}

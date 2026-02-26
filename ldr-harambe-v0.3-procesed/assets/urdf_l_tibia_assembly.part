@@ -1,0 +1,13 @@
+{
+    "configuration": "default",
+    "documentId": "a1654a8c4d07fc15a88455e3",
+    "documentMicroversion": "e9fb6eadf50785622f4419ea",
+    "elementId": "2c4106f4459ebd48bbae39f4",
+    "fullConfiguration": "default",
+    "id": "Mq9D7kiK9v/dEvz/m",
+    "isStandardContent": false,
+    "name": "URDF_L_Tibia_Assembly <1>",
+    "partId": "RYcD",
+    "suppressed": false,
+    "type": "Part"
+}

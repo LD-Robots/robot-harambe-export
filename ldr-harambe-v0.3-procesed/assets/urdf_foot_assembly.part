@@ -1,0 +1,13 @@
+{
+    "configuration": "default",
+    "documentId": "a1654a8c4d07fc15a88455e3",
+    "documentMicroversion": "e9fb6eadf50785622f4419ea",
+    "elementId": "6468d3781f5572a39800ab0e",
+    "fullConfiguration": "default",
+    "id": "MUNLKtrPjorTfpeh1",
+    "isStandardContent": false,
+    "name": "URDF_Foot_Assembly <2>",
+    "partId": "RicD",
+    "suppressed": false,
+    "type": "Part"
+}

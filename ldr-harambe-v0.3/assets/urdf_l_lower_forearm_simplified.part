@@ -1,0 +1,13 @@
+{
+    "configuration": "default",
+    "documentId": "a1654a8c4d07fc15a88455e3",
+    "documentMicroversion": "e9fb6eadf50785622f4419ea",
+    "elementId": "4590098497e1c5f4c27b4fcf",
+    "fullConfiguration": "default",
+    "id": "MpVA9O9NhJQ77owuk",
+    "isStandardContent": false,
+    "name": "URDF_L_Lower_Forearm_Simplified <1>",
+    "partId": "JHD",
+    "suppressed": false,
+    "type": "Part"
+}

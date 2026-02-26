@@ -1,0 +1,13 @@
+{
+    "configuration": "default",
+    "documentId": "44eccb8c34362883e6cd3fd1",
+    "documentMicroversion": "ab9eb857f2ab8337aa3da876",
+    "elementId": "4c6f034dcfb73d1ce3a81b63",
+    "fullConfiguration": "default",
+    "id": "MRQZ+7hfoe/XUVUqx",
+    "isStandardContent": false,
+    "name": "URDF_Spacer_X4 <1>",
+    "partId": "RicD",
+    "suppressed": false,
+    "type": "Part"
+}

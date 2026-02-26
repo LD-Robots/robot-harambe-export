@@ -19,22 +19,22 @@
     //         "*" : "collision"
     //         "!leg": "collision"
     //     },
-    "ignore": {
-        "stator_*": "collision",
-        "rotor_*": "collision",
-        "m6_threaded*": "collision",
-        "hex_nut*": "collision",
-        "12_7mm_ball*": "collision",
-        "rulment*": "collision",
-        "ankle_bearing_house*": "collision",
-        "spacer*": "collision",
-        "lever_ankle*": "collision",
-        "lower_fixation*": "collision"
-    },
+    // "ignore": {
+    //     "stator_*": "collision",
+    //     "rotor_*": "collision",
+    //     "m6_threaded*": "collision",
+    //     "hex_nut*": "collision",
+    //     "12_7mm_ball*": "collision",
+    //     "rulment*": "collision",
+    //     "ankle_bearing_house*": "collision",
+    //     "spacer*": "collision",
+    //     "lever_ankle*": "collision",
+    //     "lower_fixation*": "collision"
+    // },
     // Collision meshes directory (used by simplify_collisions.py)
-    "collision_assets_directory": "collision",
-    "simplify_stls": true,
-    // Maximum size of the STL files in MB (default: 3)
-    "max_stl_size": 0.4
+    "collision_assets_directory": "collision"
+    // "simplify_stls": true,
+    // // Maximum size of the STL files in MB (default: 3)
+    // "max_stl_size": 0.4
 }
 //https://cad.onshape.com/documents/44eccb8c34362883e6cd3fd1/w/240fdae78cbe8edd9f39a928/e/a35606bdaa728877ba23051b
