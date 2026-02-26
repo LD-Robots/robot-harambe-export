@@ -5,5 +5,32 @@
     "github.copilot.chat.codeGeneration.useInstructionFiles": true,
     "urdf-visualizer.packages": {
       "robot_harambe": "${workspaceFolder}/ldr-harambe/robot_harambe",
-  },
+},
+"ROS2.distro": "jazzy",
+"python.autoComplete.extraPaths": [
+    "/home/alex/Documents/GitHub/ros-jazzy-humble-cyclonedds/install/rmw_dds_common/lib/python3.12/site-packages",
+    "/home/alex/Documents/GitHub/ldr-harambe-arms-sim2real/install/arm_mtc/lib/python3.12/site-packages",
+    "/home/alex/Documents/GitHub/ldr-harambe-arms-sim2real/install/dualsense_tools/lib/python3.12/site-packages",
+    "/home/alex/Documents/GitHub/ldr-harambe-arms-sim2real/install/arm_gui_tools/lib/python3.12/site-packages",
+    "/home/alex/isaac_ros_ws/src/IsaacSim-ros_workspaces/jazzy_ws/install/isaac_ros_navigation_goal/lib/python3.12/site-packages",
+    "/home/alex/isaac_ros_ws/src/IsaacSim-ros_workspaces/jazzy_ws/install/isaac_ros2_messages/lib/python3.12/site-packages",
+    "/home/alex/isaac_ros_ws/src/IsaacSim-ros_workspaces/jazzy_ws/install/custom_message/lib/python3.12/site-packages",
+    "/home/alex/ws_moveit2/install/moveit_py/lib/python3.12/site-packages",
+    "/home/alex/ws_moveit2/build/moveit_configs_utils",
+    "/home/alex/ws_moveit2/install/moveit_configs_utils/lib/python3.12/site-packages",
+    "/opt/ros/jazzy/lib/python3.12/site-packages"
+],
+"python.analysis.extraPaths": [
+    "/home/alex/Documents/GitHub/ros-jazzy-humble-cyclonedds/install/rmw_dds_common/lib/python3.12/site-packages",
+    "/home/alex/Documents/GitHub/ldr-harambe-arms-sim2real/install/arm_mtc/lib/python3.12/site-packages",
+    "/home/alex/Documents/GitHub/ldr-harambe-arms-sim2real/install/dualsense_tools/lib/python3.12/site-packages",
+    "/home/alex/Documents/GitHub/ldr-harambe-arms-sim2real/install/arm_gui_tools/lib/python3.12/site-packages",
+    "/home/alex/isaac_ros_ws/src/IsaacSim-ros_workspaces/jazzy_ws/install/isaac_ros_navigation_goal/lib/python3.12/site-packages",
+    "/home/alex/isaac_ros_ws/src/IsaacSim-ros_workspaces/jazzy_ws/install/isaac_ros2_messages/lib/python3.12/site-packages",
+    "/home/alex/isaac_ros_ws/src/IsaacSim-ros_workspaces/jazzy_ws/install/custom_message/lib/python3.12/site-packages",
+    "/home/alex/ws_moveit2/install/moveit_py/lib/python3.12/site-packages",
+    "/home/alex/ws_moveit2/build/moveit_configs_utils",
+    "/home/alex/ws_moveit2/install/moveit_configs_utils/lib/python3.12/site-packages",
+    "/opt/ros/jazzy/lib/python3.12/site-packages"
+],
 }
