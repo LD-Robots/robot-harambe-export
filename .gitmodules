@@ -1,0 +1,3 @@
+[submodule "ldr-urdf-tools"]
+	path = ldr-urdf-tools
+	url = https://github.com/ld-robots/ldr-urdf-tools
