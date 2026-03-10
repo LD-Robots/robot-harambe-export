@@ -691,7 +691,7 @@
     <limit effort="10" velocity="10" lower="-3.01942" upper="1.69297"/>
   </joint>
   <!-- Joint from urdf_base to urdf_simplified_torso -->
-  <joint name="waist_yaw_joint" type="revolute">
+  <joint name="waist_yaw_joint_X8" type="revolute">
     <origin xyz="0.000698852 0.0333787 -0.300748" rpy="0 -0 0"/>
     <parent link="urdf_base"/>
     <child link="urdf_simplified_torso"/>
@@ -987,7 +987,7 @@
     </collision>
   </link>
   <!-- Joint from urdf_ankle_assembly to urdf_foot_assembly -->
-  <joint name="left_ankle_roll_joint" type="revolute">
+  <joint name="left_ankle_roll_joint_X4" type="revolute">
     <origin xyz="-0.012 0.028 -0.004" rpy="0 1.5708 0"/>
     <parent link="urdf_ankle_assembly"/>
     <child link="urdf_foot_assembly"/>
@@ -995,7 +995,7 @@
     <limit effort="10" velocity="10" lower="-0.785398" upper="0.785398"/>
   </joint>
   <!-- Joint from urdf_l_tibia_assembly to urdf_ankle_assembly -->
-  <joint name="left_ankle_pitch_joint" type="revolute">
+  <joint name="left_ankle_pitch_joint_X4" type="revolute">
     <origin xyz="0 0.395 -0.051" rpy="0 -0 0"/>
     <parent link="urdf_l_tibia_assembly"/>
     <child link="urdf_ankle_assembly"/>
@@ -1003,7 +1003,7 @@
     <limit effort="10" velocity="10" lower="-0.785398" upper="0.785398"/>
   </joint>
   <!-- Joint from urdf_lower_femur_assembly to urdf_l_tibia_assembly -->
-  <joint name="left_knee_joint" type="revolute">
+  <joint name="left_knee_joint_X8" type="revolute">
     <origin xyz="-0.055 0 0.113" rpy="1.5708 0 -1.5708"/>
     <parent link="urdf_lower_femur_assembly"/>
     <child link="urdf_l_tibia_assembly"/>
@@ -1011,7 +1011,7 @@
     <limit effort="10" velocity="10" lower="-0.174533" upper="1.5708"/>
   </joint>
   <!-- Joint from urdf_l_upper_femur_assembly to urdf_lower_femur_assembly -->
-  <joint name="left_hip_yaw_joint" type="revolute">
+  <joint name="left_hip_yaw_joint_X8" type="revolute">
     <origin xyz="-0 0.217 -0.053" rpy="-1.5708 0 0"/>
     <parent link="urdf_l_upper_femur_assembly"/>
     <child link="urdf_lower_femur_assembly"/>
@@ -1019,7 +1019,7 @@
     <limit effort="10" velocity="10" lower="-1.5708" upper="1.5708"/>
   </joint>
   <!-- Joint from urdf_hip_assembly to urdf_l_upper_femur_assembly -->
-  <joint name="left_hip_roll_joint" type="revolute">
+  <joint name="left_hip_roll_joint_X8" type="revolute">
     <origin xyz="0.055 0 0.073" rpy="-0 1.5708 0"/>
     <parent link="urdf_hip_assembly"/>
     <child link="urdf_l_upper_femur_assembly"/>
@@ -1027,7 +1027,7 @@
     <limit effort="10" velocity="10" lower="-0.349066" upper="3.14159"/>
   </joint>
   <!-- Joint from urdf_base to urdf_hip_assembly -->
-  <joint name="left_hip_pitch_joint" type="revolute">
+  <joint name="left_hip_pitch_joint_X8" type="revolute">
     <origin xyz="-0.111301 0.0333787 -0.467748" rpy="-1.5708 -0 1.5708"/>
     <parent link="urdf_base"/>
     <child link="urdf_hip_assembly"/>
@@ -1323,7 +1323,7 @@
     </collision>
   </link>
   <!-- Joint from urdf_ankle_assembly_2 to urdf_foot_assembly_2 -->
-  <joint name="right_ankle_pitch_joint" type="revolute">
+  <joint name="right_ankle_pitch_joint_X4" type="revolute">
     <origin xyz="-0.012 0.028 -0.004" rpy="0 1.5708 0"/>
     <parent link="urdf_ankle_assembly_2"/>
     <child link="urdf_foot_assembly_2"/>
@@ -1331,7 +1331,7 @@
     <limit effort="10" velocity="10" lower="-0.785398" upper="0.785398"/>
   </joint>
   <!-- Joint from urdf_r_tibia_assembly to urdf_ankle_assembly_2 -->
-  <joint name="right_ankle_roll_joint" type="revolute">
+  <joint name="right_ankle_roll_joint_X4" type="revolute">
     <origin xyz="-0 0.395 0.059" rpy="0 -0 0"/>
     <parent link="urdf_r_tibia_assembly"/>
     <child link="urdf_ankle_assembly_2"/>
@@ -1339,7 +1339,7 @@
     <limit effort="10" velocity="10" lower="-0.785398" upper="0.785398"/>
   </joint>
   <!-- Joint from urdf_lower_femur_assembly_2 to urdf_r_tibia_assembly -->
-  <joint name="right_knee_joint" type="revolute">
+  <joint name="right_knee_joint_X8" type="revolute">
     <origin xyz="0.055 -0 0.113" rpy="1.5708 0 -1.5708"/>
     <parent link="urdf_lower_femur_assembly_2"/>
     <child link="urdf_r_tibia_assembly"/>
@@ -1347,7 +1347,7 @@
     <limit effort="10" velocity="10" lower="-0.174533" upper="1.5708"/>
   </joint>
   <!-- Joint from urdf_r_upper_femur_assemby to urdf_lower_femur_assembly_2 -->
-  <joint name="right_hip_yaw_joint" type="revolute">
+  <joint name="right_hip_yaw_joint_X8" type="revolute">
     <origin xyz="0 0.217 -0.053" rpy="-1.5708 0 -0"/>
     <parent link="urdf_r_upper_femur_assemby"/>
     <child link="urdf_lower_femur_assembly_2"/>
@@ -1355,7 +1355,7 @@
     <limit effort="10" velocity="10" lower="-1.5708" upper="1.5708"/>
   </joint>
   <!-- Joint from urdf_hip_assembly_2 to urdf_r_upper_femur_assemby -->
-  <joint name="right_hip_roll_joint" type="revolute">
+  <joint name="right_hip_roll_joint_X8" type="revolute">
     <origin xyz="0.055 0 0.078" rpy="-3.14159 -1.5708 0"/>
     <parent link="urdf_hip_assembly_2"/>
     <child link="urdf_r_upper_femur_assemby"/>
@@ -1363,7 +1363,7 @@
     <limit effort="10" velocity="10" lower="-3.14159" upper="0.349066"/>
   </joint>
   <!-- Joint from urdf_base to urdf_hip_assembly_2 -->
-  <joint name="right_hip_pitch_joint" type="revolute">
+  <joint name="right_hip_pitch_joint_X8" type="revolute">
     <origin xyz="0.107699 0.0333787 -0.467748" rpy="1.5708 -0 1.5708"/>
     <parent link="urdf_base"/>
     <child link="urdf_hip_assembly_2"/>
