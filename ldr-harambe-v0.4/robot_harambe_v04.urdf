@@ -1079,7 +1079,7 @@
     <inertial>
       <origin xyz="-7.532e-09 0.0200314 0.0436027" rpy="0 0 0"/>
       <mass value="0.309"/>
-      <inertia ixx="1.21361" ixy="-5.7758e-08" ixz="5.2006e-08" iyy="1.37693" iyz="0.00983566" izz="0.232433"/>
+      <inertia ixx="0.00121361" ixy="-5.7758e-11" ixz="5.2006e-11" iyy="0.00137693" iyz="9.83566e-06" izz="0.000232433"/>
     </inertial>
     <!-- Part urdf_foot_assembly -->
     <visual>
@@ -1415,7 +1415,7 @@
     <inertial>
       <origin xyz="-7.532e-09 0.0200314 0.0436027" rpy="0 0 0"/>
       <mass value="0.309"/>
-      <inertia ixx="1.21361" ixy="-5.7758e-08" ixz="5.2006e-08" iyy="1.37693" iyz="0.00983566" izz="0.232433"/>
+      <inertia ixx="0.00121361" ixy="-5.7758e-11" ixz="5.2006e-11" iyy="0.00137693" iyz="9.83566e-06" izz="0.000232433"/>
     </inertial>
     <!-- Part urdf_foot_assembly_2 -->
     <visual>
