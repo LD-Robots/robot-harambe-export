@@ -1435,7 +1435,7 @@
     </collision>
   </link>
   <!-- Joint from udrf_ankle_assembly_2 to urdf_foot_assembly_2 -->
-  <joint name="right_ankle_pitch_joint_X4" type="revolute">
+  <joint name="right_ankle_roll_joint_X4" type="revolute">
     <origin xyz="-0.012 0.028 -0.004" rpy="0 1.5708 0"/>
     <parent link="udrf_ankle_assembly_2"/>
     <child link="urdf_foot_assembly_2"/>
@@ -1443,7 +1443,7 @@
     <limit effort="10" velocity="10" lower="-0.785398" upper="0.785398"/>
   </joint>
   <!-- Joint from urdf_r_tibia_assembly to udrf_ankle_assembly_2 -->
-  <joint name="right_ankle_roll_joint_X4" type="revolute">
+  <joint name="right_ankle_pitch_joint_X4" type="revolute">
     <origin xyz="-0 0.395 0.059" rpy="0 -0 -0"/>
     <parent link="urdf_r_tibia_assembly"/>
     <child link="udrf_ankle_assembly_2"/>
