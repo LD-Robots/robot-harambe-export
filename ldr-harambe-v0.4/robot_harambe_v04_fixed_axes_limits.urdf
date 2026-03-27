@@ -1024,19 +1024,19 @@
       </geometry>
     </collision>
   </link>
-  <joint name="left_ankle_roll_joint_X4" type="revolute">
-    <origin xyz="-0.012 -0.004 -0.028" rpy="0 0 0" />
-    <parent link="udrf_ankle_assembly" />
-    <child link="urdf_foot_assembly" />
-    <axis xyz="1 0 0" />
-    <limit effort="10.5" velocity="8.69" lower="-0.79" upper="0.79" />
-    <dynamics friction="1.14" damping="0.114" />
-  </joint>
   <joint name="left_ankle_pitch_joint_X4" type="revolute">
     <origin xyz="0 -0.051 -0.395" rpy="0 0 0" />
     <parent link="urdf_l_tibia_assembly" />
     <child link="udrf_ankle_assembly" />
     <axis xyz="0 1 0" />
+    <limit effort="10.5" velocity="8.69" lower="-0.79" upper="0.79" />
+    <dynamics friction="1.14" damping="0.114" />
+  </joint>
+  <joint name="left_ankle_roll_joint_X4" type="revolute">
+    <origin xyz="-0.012 -0.004 -0.028" rpy="0 0 0" />
+    <parent link="udrf_ankle_assembly" />
+    <child link="urdf_foot_assembly" />
+    <axis xyz="1 0 0" />
     <limit effort="10.5" velocity="8.69" lower="-0.79" upper="0.79" />
     <dynamics friction="1.14" damping="0.114" />
   </joint>
@@ -1339,19 +1339,19 @@
       </geometry>
     </collision>
   </link>
-  <joint name="right_ankle_pitch_joint_X4" type="revolute">
-    <origin xyz="-0.012 -0.004 -0.028" rpy="0 0 0" />
-    <parent link="udrf_ankle_assembly_2" />
-    <child link="urdf_foot_assembly_2" />
-    <axis xyz="0 1 0" />
-    <limit effort="10.5" velocity="8.69" lower="-0.79" upper="0.79" />
-    <dynamics friction="1.14" damping="0.114" />
-  </joint>
   <joint name="right_ankle_roll_joint_X4" type="revolute">
     <origin xyz="0 0.059 -0.395" rpy="0 0 0" />
     <parent link="urdf_r_tibia_assembly" />
     <child link="udrf_ankle_assembly_2" />
     <axis xyz="1 0 0" />
+    <limit effort="10.5" velocity="8.69" lower="-0.79" upper="0.79" />
+    <dynamics friction="1.14" damping="0.114" />
+  </joint>
+  <joint name="right_ankle_pitch_joint_X4" type="revolute">
+    <origin xyz="-0.012 -0.004 -0.028" rpy="0 0 0" />
+    <parent link="udrf_ankle_assembly_2" />
+    <child link="urdf_foot_assembly_2" />
+    <axis xyz="0 1 0" />
     <limit effort="10.5" velocity="8.69" lower="-0.79" upper="0.79" />
     <dynamics friction="1.14" damping="0.114" />
   </joint>
