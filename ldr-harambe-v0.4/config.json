@@ -1,0 +1,45 @@
+{
+    "url": "https://cad.onshape.com/documents/0a7fad25fc76b10bc68cd82a/w/132152a0cda5203d29020a51/e/722bb290c402d4fa19b2a1b1",
+    
+    // "documentId": "0a7fad25fc76b10bc68cd82a",
+    //Using workspace id: 26f71cb13ce2f9e6edfba4bb
+    // "assemblyName": "URDF_Assembly_LD_Robot_V0.3",
+    "outputFormat": "urdf",
+    "output_filename": "robot_harambe_v04",
+    // Output filename (default: "robot")
+    // Extension (.urdf, .xml) will be added automatically
+    // Assets directory (default: "assets")
+    "assets_directory": "assets",
+    // Assembly name to use in the document (optional)
+    // Robot name (default: "onshape")
+    "robot_name": "robot_harambe_v04",
+    // // Parts to ignore (default: {})
+    //     "ignore": {
+    //         // Ignore visual for visual
+    //         "part1": "visual",
+    //         "screw*": "visual",
+    //         // Ignore everything expect "leg" for collision
+    //         "*" : "collision"
+    //         "!leg": "collision"
+    //     },
+    // "ignore": {
+    //     "stator_*": "collision",
+    //     "rotor_*": "collision",
+    //     "m6_threaded*": "collision",
+    //     "hex_nut*": "collision",
+    //     "12_7mm_ball*": "collision",
+    //     "rulment*": "collision",
+    //     "ankle_bearing_house*": "collision",
+    //     "spacer*": "collision",
+    //     "lever_ankle*": "collision",
+    //     "lower_fixation*": "collision"
+    // },
+    // Collision meshes directory (used by simplify_collisions.py)
+    "collision_assets_directory": "collision"
+    // "simplify_stls": true,
+    // // Maximum size of the STL files in MB (default: 3)
+    // "max_stl_size": 0.4
+}
+//https://cad.onshape.com/documents/a1654a8c4d07fc15a88455e3/w/26f71cb13ce2f9e6edfba4bb/e/0077386d11c54d904f9e904a
+
+//https://cad.onshape.com/documents/0a7fad25fc76b10bc68cd82a/w/132152a0cda5203d29020a51/e/722bb290c402d4fa19b2a1b1
