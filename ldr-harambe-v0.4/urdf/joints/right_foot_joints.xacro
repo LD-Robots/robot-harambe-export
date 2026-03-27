@@ -44,7 +44,7 @@
     <origin xyz="0 0.059 -0.395" rpy="0 0 0"/>
     <parent link="urdf_r_tibia_assembly"/>
     <child link="udrf_ankle_assembly_2"/>
-    <axis xyz="0 1 0"/>
+    <axis xyz="1 0 0"/>
     <limit effort="${X4_moderate_effort}" velocity="${X4_rated_velocity}" lower="-0.79" upper="0.79"/>
     <dynamics friction="${X4_friction}" damping="${X4_damping}"/>
   </joint>
@@ -53,7 +53,7 @@
     <origin xyz="-0.012 -0.004 -0.028" rpy="0 0 0"/>
     <parent link="udrf_ankle_assembly_2"/>
     <child link="urdf_foot_assembly_2"/>
-    <axis xyz="1 0 0"/>
+    <axis xyz="0 1 0"/>
     <limit effort="${X4_moderate_effort}" velocity="${X4_rated_velocity}" lower="-0.79" upper="0.79"/>
     <dynamics friction="${X4_friction}" damping="${X4_damping}"/>
   </joint>

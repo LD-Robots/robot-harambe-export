@@ -233,8 +233,8 @@
   <link name="urdf_foot_assembly">
     <inertial>
       <origin xyz="0.0436027 8.11114e-08 -0.0200314" rpy="0 0 0"/>
-      <mass value="309"/>
-      <inertia ixx="0.232433" ixy="-1.58776e-08" ixz="-0.00983566" iyy="1.21361" iyz="-6.57666e-07" izz="1.37693"/>
+      <mass value="0.309"/>
+      <inertia ixx="0.000232433" ixy="-1.58776e-11" ixz="-9.83566e-06" iyy="0.00121361" iyz="-6.57666e-10" izz="0.00137693"/>
     </inertial>
     <visual>
       <origin xyz="0.0436027 7.24764e-08 -0.0200314" rpy="0 0 -1.5708"/>
