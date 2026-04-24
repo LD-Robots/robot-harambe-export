@@ -1,0 +1,13 @@
+{
+    "configuration": "default",
+    "documentId": "0a7fad25fc76b10bc68cd82a",
+    "documentMicroversion": "83168937119647b00922a37d",
+    "elementId": "6b9f0333698e4934b46c3dad",
+    "fullConfiguration": "default",
+    "id": "MXDJn7lV8i6NPdCzr",
+    "isStandardContent": false,
+    "name": "URDF_Menghina <1>",
+    "partId": "R5HD",
+    "suppressed": false,
+    "type": "Part"
+}
