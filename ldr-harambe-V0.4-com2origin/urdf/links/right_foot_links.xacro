@@ -30,7 +30,7 @@
       <geometry>
         <mesh filename="package://full_robot_description/meshes/visual/stator_x8_p20_120_unified.stl"/>
       </geometry>
-      <material name="stator_x8_p20_120_unified_7_material">
+      <material name="stator_x8_p20_120_unified_4_material">
         <color rgba="0.882353 0.572549 0.478431 1"/>
       </material>
     </visual>
@@ -62,7 +62,7 @@
       <geometry>
         <mesh filename="package://full_robot_description/meshes/visual/stator_x8_p20_120_unified.stl"/>
       </geometry>
-      <material name="stator_x8_p20_120_unified_8_material">
+      <material name="stator_x8_p20_120_unified_5_material">
         <color rgba="0.882353 0.572549 0.478431 1"/>
       </material>
     </visual>
@@ -94,7 +94,7 @@
       <geometry>
         <mesh filename="package://full_robot_description/meshes/visual/stator_x8_p20_120_unified.stl"/>
       </geometry>
-      <material name="stator_x8_p20_120_unified_9_material">
+      <material name="stator_x8_p20_120_unified_6_material">
         <color rgba="0.882353 0.572549 0.478431 1"/>
       </material>
     </visual>
