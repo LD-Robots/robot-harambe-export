@@ -1,0 +1,13 @@
+{
+    "configuration": "default",
+    "documentId": "49070a1cc391dc99fd18cad9",
+    "documentMicroversion": "bb93d3d21547e7fc00f6a895",
+    "elementId": "fa075b57cbcbb81227f4566f",
+    "fullConfiguration": "default",
+    "id": "ManqnclAyNrCa74Ux",
+    "isStandardContent": false,
+    "name": "URDF_Simplified_Torso <1>",
+    "partId": "RMFX",
+    "suppressed": false,
+    "type": "Part"
+}
