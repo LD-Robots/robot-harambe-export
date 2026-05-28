@@ -954,27 +954,27 @@
       </geometry>
     </collision>
   </link>
-  <!-- Link udrf_ankle_assembly -->
-  <link name="udrf_ankle_assembly">
+  <!-- Link urdf_ankle_assembly -->
+  <link name="urdf_ankle_assembly">
     <inertial>
       <origin xyz="-0 0.0125426 -0.004" rpy="0 0 0"/>
       <mass value="0.0818219"/>
       <inertia ixx="1.69449e-05" ixy="-0" ixz="0" iyy="1.25404e-05" iyz="-0" izz="2.15245e-05"/>
     </inertial>
-    <!-- Part udrf_ankle_assembly -->
+    <!-- Part urdf_ankle_assembly -->
     <visual>
       <origin xyz="-0 0.0125426 -0.004" rpy="1.5708 1.5708 0"/>
       <geometry>
-        <mesh filename="package://assets/udrf_ankle_assembly.stl"/>
+        <mesh filename="package://assets/urdf_ankle_assembly.stl"/>
       </geometry>
-      <material name="udrf_ankle_assembly_material">
+      <material name="urdf_ankle_assembly_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="-0 0.0125426 -0.004" rpy="1.5708 1.5708 0"/>
       <geometry>
-        <mesh filename="package://assets/udrf_ankle_assembly.stl"/>
+        <mesh filename="package://assets/urdf_ankle_assembly.stl"/>
       </geometry>
     </collision>
   </link>
@@ -1002,19 +1002,19 @@
       </geometry>
     </collision>
   </link>
-  <!-- Joint from udrf_ankle_assembly to urdf_foot_assembly -->
+  <!-- Joint from urdf_ankle_assembly to urdf_foot_assembly -->
   <joint name="left_ankle_roll_joint_X4" type="revolute">
     <origin xyz="-0.012 0.028 -0.004" rpy="0 1.5708 0"/>
-    <parent link="udrf_ankle_assembly"/>
+    <parent link="urdf_ankle_assembly"/>
     <child link="urdf_foot_assembly"/>
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-0.785398" upper="0.785398"/>
   </joint>
-  <!-- Joint from urdf_l_tibia_assembly to udrf_ankle_assembly -->
+  <!-- Joint from urdf_l_tibia_assembly to urdf_ankle_assembly -->
   <joint name="left_ankle_pitch_joint_X4" type="revolute">
     <origin xyz="-0 0.395 -0.051" rpy="0 0 -0"/>
     <parent link="urdf_l_tibia_assembly"/>
-    <child link="udrf_ankle_assembly"/>
+    <child link="urdf_ankle_assembly"/>
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-0.785398" upper="0.785398"/>
   </joint>
@@ -1024,7 +1024,7 @@
     <parent link="urdf_lower_femur_assembly"/>
     <child link="urdf_l_tibia_assembly"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-1.52716" upper="1.52716"/>
+    <limit effort="10" velocity="10" lower="0" upper="1.51844"/>
   </joint>
   <!-- Joint from urdf_l_upper_femur_assembly to urdf_lower_femur_assembly -->
   <joint name="left_hip_yaw_joint_X8" type="revolute">
@@ -1090,8 +1090,8 @@
       </geometry>
     </collision>
   </link>
-  <!-- Link urdf_r_upper_femur_assemby -->
-  <link name="urdf_r_upper_femur_assemby">
+  <!-- Link urdf_r_upper_femur_assembly -->
+  <link name="urdf_r_upper_femur_assembly">
     <inertial>
       <origin xyz="0.000406025 0.147969 -0.0457109" rpy="0 0 0"/>
       <mass value="1.912"/>
@@ -1290,27 +1290,27 @@
       </geometry>
     </collision>
   </link>
-  <!-- Link udrf_ankle_assembly_2 -->
-  <link name="udrf_ankle_assembly_2">
+  <!-- Link urdf_ankle_assembly_2 -->
+  <link name="urdf_ankle_assembly_2">
     <inertial>
       <origin xyz="-0 0.0125426 -0.004" rpy="0 0 0"/>
       <mass value="0.0818219"/>
       <inertia ixx="1.69449e-05" ixy="-0" ixz="0" iyy="1.25404e-05" iyz="-0" izz="2.15245e-05"/>
     </inertial>
-    <!-- Part udrf_ankle_assembly_2 -->
+    <!-- Part urdf_ankle_assembly_2 -->
     <visual>
       <origin xyz="-0 0.0125426 -0.004" rpy="1.5708 1.5708 0"/>
       <geometry>
-        <mesh filename="package://assets/udrf_ankle_assembly.stl"/>
+        <mesh filename="package://assets/urdf_ankle_assembly.stl"/>
       </geometry>
-      <material name="udrf_ankle_assembly_2_material">
+      <material name="urdf_ankle_assembly_2_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="-0 0.0125426 -0.004" rpy="1.5708 1.5708 0"/>
       <geometry>
-        <mesh filename="package://assets/udrf_ankle_assembly.stl"/>
+        <mesh filename="package://assets/urdf_ankle_assembly.stl"/>
       </geometry>
     </collision>
   </link>
@@ -1338,19 +1338,19 @@
       </geometry>
     </collision>
   </link>
-  <!-- Joint from udrf_ankle_assembly_2 to urdf_foot_assembly_2 -->
-  <joint name="right_ankle_pitch_joint_X4" type="revolute">
+  <!-- Joint from urdf_ankle_assembly_2 to urdf_foot_assembly_2 -->
+  <joint name="right_ankle_roll_joint_X4" type="revolute">
     <origin xyz="-0.012 0.028 -0.004" rpy="0 1.5708 0"/>
-    <parent link="udrf_ankle_assembly_2"/>
+    <parent link="urdf_ankle_assembly_2"/>
     <child link="urdf_foot_assembly_2"/>
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-0.785398" upper="0.785398"/>
   </joint>
-  <!-- Joint from urdf_r_tibia_assembly to udrf_ankle_assembly_2 -->
-  <joint name="right_ankle_roll_joint_X4" type="revolute">
+  <!-- Joint from urdf_r_tibia_assembly to urdf_ankle_assembly_2 -->
+  <joint name="right_ankle_pitch_joint_X4" type="revolute">
     <origin xyz="0 0.395 0.059" rpy="-0 0 0"/>
     <parent link="urdf_r_tibia_assembly"/>
-    <child link="udrf_ankle_assembly_2"/>
+    <child link="urdf_ankle_assembly_2"/>
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-0.785398" upper="0.785398"/>
   </joint>
@@ -1360,21 +1360,21 @@
     <parent link="urdf_lower_femur_assembly_2"/>
     <child link="urdf_r_tibia_assembly"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-1.52716" upper="1.52716"/>
+    <limit effort="10" velocity="10" lower="0" upper="1.51844"/>
   </joint>
-  <!-- Joint from urdf_r_upper_femur_assemby to urdf_lower_femur_assembly_2 -->
+  <!-- Joint from urdf_r_upper_femur_assembly to urdf_lower_femur_assembly_2 -->
   <joint name="right_hip_yaw_joint_X8" type="revolute">
     <origin xyz="-0 0.217 -0.053" rpy="-1.5708 0 0"/>
-    <parent link="urdf_r_upper_femur_assemby"/>
+    <parent link="urdf_r_upper_femur_assembly"/>
     <child link="urdf_lower_femur_assembly_2"/>
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-1.5708" upper="1.5708"/>
   </joint>
-  <!-- Joint from urdf_hip_assembly_2 to urdf_r_upper_femur_assemby -->
+  <!-- Joint from urdf_hip_assembly_2 to urdf_r_upper_femur_assembly -->
   <joint name="right_hip_roll_joint_X8" type="revolute">
     <origin xyz="0 -0.053 -0.062" rpy="1.5708 1.5708 0"/>
     <parent link="urdf_hip_assembly_2"/>
-    <child link="urdf_r_upper_femur_assemby"/>
+    <child link="urdf_r_upper_femur_assembly"/>
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-3.22886" upper="0.383972"/>
   </joint>
