@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- ================================================================== -->
+  <!-- Right Foot                                                        -->
+  <!-- ================================================================== -->
+  <joint name="right_hip_pitch_joint_X8" type="${leg_joint_type}">
+    <origin xyz="-0.00371302 -0.0877744 -0.0675455" rpy="0 0 0"/>
+    <parent link="urdf_base"/>
+    <child link="urdf_hip_assembly_2"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="${X8_moderate_effort}" velocity="${X8_rated_velocity}" lower="-2.61799" upper="2.61799"/>
+    <dynamics damping="${X8_damping}" friction="${X8_friction}"/>
+  </joint>
+
+  <joint name="right_hip_roll_joint_X8" type="${leg_joint_type}">
+    <origin xyz="0.053 -0.062 0" rpy="0 0 0"/>
+    <parent link="urdf_hip_assembly_2"/>
+    <child link="urdf_r_upper_femur_assembly"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="${X8_moderate_effort}" velocity="${X8_rated_velocity}" lower="-3.22886" upper="0.383972"/>
+    <dynamics damping="${X8_damping}" friction="${X8_friction}"/>
+  </joint>
+
+  <joint name="right_hip_yaw_joint_X8" type="${leg_joint_type}">
+    <origin xyz="-0.053 -7.97086e-07 -0.217" rpy="0 0 0"/>
+    <parent link="urdf_r_upper_femur_assembly"/>
+    <child link="urdf_lower_femur_right_assembly"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="${X8_moderate_effort}" velocity="${X8_rated_velocity}" lower="-2.75762" upper="2.75762"/>
+    <dynamics damping="${X8_damping}" friction="${X8_friction}"/>
+  </joint>
+
+  <joint name="right_knee_joint_X8" type="${leg_joint_type}">
+    <origin xyz="0 -0.055 -0.111" rpy="0 0 0"/>
+    <parent link="urdf_lower_femur_right_assembly"/>
+    <child link="urdf_r_tibia_assembly"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="${X8_moderate_effort}" velocity="${X8_rated_velocity}" lower="0" upper="1.52716"/>
+    <dynamics damping="${X8_damping}" friction="${X8_friction}"/>
+  </joint>
+
+  <joint name="right_ankle_pitch_joint_X4" type="${leg_joint_type}">
+    <origin xyz="-1.45092e-06 0.059 -0.395" rpy="0 0 0"/>
+    <parent link="urdf_r_tibia_assembly"/>
+    <child link="urdf_ankle_assembly_2"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="${X4_moderate_effort}" velocity="${X4_rated_velocity}" lower="-0.785398" upper="0.785398"/>
+    <dynamics damping="${X4_damping}" friction="${X4_friction}"/>
+  </joint>
+
+  <joint name="right_ankle_roll_joint_X4" type="${leg_joint_type}">
+    <origin xyz="-0.0120001 -0.004 -0.028" rpy="0 0 0"/>
+    <parent link="urdf_ankle_assembly_2"/>
+    <child link="urdf_foot_assembly_2"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="${X4_moderate_effort}" velocity="${X4_rated_velocity}" lower="-0.785398" upper="0.785398"/>
+    <dynamics damping="${X4_damping}" friction="${X4_friction}"/>
+  </joint>
+
+</robot>

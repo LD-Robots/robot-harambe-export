@@ -2,27 +2,27 @@
 <!-- Generated using onshape-to-robot -->
 <!-- Onshape https://cad.onshape.com/documents/d96938517e7695dfb19c5f86/w/d717718dcecfda0952c4139e/e/58f157bf097de7213b2a3f34 -->
 <robot name="robot_harambe_v04_com2origin_origin2joint">
-  <!-- Link urdf_pelvis -->
-  <link name="urdf_pelvis">
+  <!-- Link urdf_base -->
+  <link name="urdf_base">
     <inertial>
       <origin xyz="-0.000221695 -0.0018527 -0.0329862" rpy="0 0 0"/>
       <mass value="5.778"/>
       <inertia ixx="0.0280522" ixy="-1.97277e-06" ixz="4.94971e-07" iyy="0.0319377" iyz="3.91267e-05" izz="0.0192445"/>
     </inertial>
-    <!-- Part urdf_pelvis -->
+    <!-- Part urdf_base -->
     <visual>
       <origin xyz="-0.000225649 -0.00371302 -0.0675455" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://assets/urdf_pelvis.stl"/>
+        <mesh filename="package://assets/urdf_base.stl"/>
       </geometry>
-      <material name="urdf_pelvis_material">
+      <material name="urdf_base_material">
         <color rgba="0.231373 0.380392 0.705882 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="-0.000225649 -0.00371302 -0.0675455" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://assets/urdf_pelvis.stl"/>
+        <mesh filename="package://assets/urdf_base.stl"/>
       </geometry>
     </collision>
   </link>
@@ -674,10 +674,10 @@
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-3.14159" upper="1.5708"/>
   </joint>
-  <!-- Joint from urdf_pelvis to urdf_simplified_torso -->
+  <!-- Joint from urdf_base to urdf_simplified_torso -->
   <joint name="waist_yaw_joint_X8" type="revolute">
     <origin xyz="-0.000225649 -0.00371302 0.0824545" rpy="-3.14159 0 0"/>
-    <parent link="urdf_pelvis"/>
+    <parent link="urdf_base"/>
     <child link="urdf_simplified_torso"/>
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-2.60054" upper="2.60054"/>
@@ -1010,10 +1010,10 @@
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-0.383972" upper="3.22886"/>
   </joint>
-  <!-- Joint from urdf_pelvis to urdf_hip_assembly -->
+  <!-- Joint from urdf_base to urdf_hip_assembly -->
   <joint name="left_hip_pitch_joint_X8" type="revolute">
     <origin xyz="-0.0882256 -0.00371302 -0.0675455" rpy="1.5708 -0 1.5708"/>
-    <parent link="urdf_pelvis"/>
+    <parent link="urdf_base"/>
     <child link="urdf_hip_assembly"/>
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-2.61799" upper="2.61799"/>
@@ -1346,10 +1346,10 @@
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-3.22886" upper="0.383972"/>
   </joint>
-  <!-- Joint from urdf_pelvis to urdf_hip_assembly_2 -->
+  <!-- Joint from urdf_base to urdf_hip_assembly_2 -->
   <joint name="right_hip_pitch_joint_X8" type="revolute">
     <origin xyz="0.0877744 -0.00371302 -0.0675455" rpy="-1.5708 -0 1.5708"/>
-    <parent link="urdf_pelvis"/>
+    <parent link="urdf_base"/>
     <child link="urdf_hip_assembly_2"/>
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-2.61799" upper="2.61799"/>
