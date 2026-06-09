@@ -1,0 +1,13 @@
+{
+    "configuration": "default",
+    "documentId": "d96938517e7695dfb19c5f86",
+    "documentMicroversion": "71aa87c19a4a5788e3842d2e",
+    "elementId": "6c9621cb1da0777b73d73b1c",
+    "fullConfiguration": "default",
+    "id": "McAl11Thmx07YkO4e",
+    "isStandardContent": false,
+    "name": "URDF_L_Elbow_Simplified <1>",
+    "partId": "JHD",
+    "suppressed": false,
+    "type": "Part"
+}

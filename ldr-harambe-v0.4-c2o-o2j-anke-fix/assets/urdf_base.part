@@ -1,0 +1,13 @@
+{
+    "configuration": "default",
+    "documentId": "d96938517e7695dfb19c5f86",
+    "documentMicroversion": "71aa87c19a4a5788e3842d2e",
+    "elementId": "dc934e00bf7db7e19d45dd40",
+    "fullConfiguration": "default",
+    "id": "MBvGhgoI88cu/vjQ1",
+    "isStandardContent": false,
+    "name": "urdf_base <1>",
+    "partId": "R1FH",
+    "suppressed": false,
+    "type": "Part"
+}

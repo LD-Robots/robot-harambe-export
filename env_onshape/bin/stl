@@ -1,0 +1,6 @@
+#!/home/andrei-dragomir/Documents/robot-harambe-export/env_onshape/bin/python3
+import sys
+from stl.main import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())

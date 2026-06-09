@@ -1,5 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <robot name="robot_harambe_v04_com2origin_origin2joint">
+  <mujoco>
+    <compiler strippath="false" meshdir="." balanceinertia="true" discardvisual="false"/>
+  </mujoco>
+  <!-- Dummy world link + floating base so urdf_base stays a real body in MuJoCo
+       (otherwise the URDF root is folded into worldbody and autoconnect draws no
+       connector between the torso/legs and the base). -->
+  <link name="world"/>
+  <joint name="floating_base" type="floating">
+    <parent link="world"/>
+    <child link="urdf_base"/>
+  </joint>
   <link name="urdf_base">
     <inertial>
       <origin xyz="-0.0018527 0.000221695 -0.0329862" rpy="0 0 0" />

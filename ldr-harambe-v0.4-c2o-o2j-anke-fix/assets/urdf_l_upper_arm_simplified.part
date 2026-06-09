@@ -1,0 +1,13 @@
+{
+    "configuration": "default",
+    "documentId": "d96938517e7695dfb19c5f86",
+    "documentMicroversion": "71aa87c19a4a5788e3842d2e",
+    "elementId": "67954b6e5aa6bb251242b6e3",
+    "fullConfiguration": "default",
+    "id": "MSNqxhVVG18cWHzTi",
+    "isStandardContent": false,
+    "name": "URDF_L_Upper_Arm_Simplified <1>",
+    "partId": "JID",
+    "suppressed": false,
+    "type": "Part"
+}
