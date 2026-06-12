@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- ================================================================== -->
+  <!-- Left Arm                                                          -->
+  <!-- ================================================================== -->
+  <joint name="left_shoulder_pitch_joint_X6" type="revolute">
+    <origin xyz="0 0.1695 0.423977" rpy="0 0 0"/>
+    <parent link="urdf_simplified_torso"/>
+    <child link="urdf_l_shoulder_assembly"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="${X6_moderate_effort}" velocity="${X6_rated_velocity}" lower="-3.14159" upper="1.5708"/>
+    <dynamics damping="${X6_damping}" friction="${X6_friction}"/>
+  </joint>
+
+  <joint name="left_shoulder_roll_joint_X6" type="revolute">
+    <origin xyz="0.046 0.07 1.22065e-07" rpy="0 0 0"/>
+    <parent link="urdf_l_shoulder_assembly"/>
+    <child link="urdf_l_upper_arm_assembly"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="${X6_moderate_effort}" velocity="${X6_rated_velocity}" lower="0" upper="3.14159"/>
+    <dynamics damping="${X6_damping}" friction="${X6_friction}"/>
+  </joint>
+
+  <joint name="left_shoulder_yaw_joint_X4" type="revolute">
+    <origin xyz="-0.046 6.06079e-07 -0.165" rpy="0 0 0"/>
+    <parent link="urdf_l_upper_arm_assembly"/>
+    <child link="urdf_l_elbow_assembly"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="${X4_moderate_effort}" velocity="${X4_rated_velocity}" lower="-2.35619" upper="2.35619"/>
+    <dynamics damping="${X4_damping}" friction="${X4_friction}"/>
+  </joint>
+
+  <joint name="left_elbow_pitch_joint_X6" type="revolute">
+    <origin xyz="1.28562e-07 0.035 -0.075" rpy="0 0 0"/>
+    <parent link="urdf_l_elbow_assembly"/>
+    <child link="urdf_l_upper_forearm_assembly"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="${X6_moderate_effort}" velocity="${X6_rated_velocity}" lower="-1.5708" upper="1.5708"/>
+    <dynamics damping="${X6_damping}" friction="${X6_friction}"/>
+  </joint>
+
+  <joint name="left_wrist_yaw_joint_X4" type="revolute">
+    <origin xyz="4.32531e-07 -0.035 -0.163" rpy="0 0 0"/>
+    <parent link="urdf_l_upper_forearm_assembly"/>
+    <child link="urdf_l_lower_forearm_assembly"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="${X4_moderate_effort}" velocity="${X4_rated_velocity}" lower="-2.35619" upper="2.35619"/>
+    <dynamics damping="${X4_damping}" friction="${X4_friction}"/>
+  </joint>
+
+  <joint name="left_wrist_roll_joint_X4" type="revolute">
+    <origin xyz="0.033 -3.3e-07 -0.0615" rpy="0 0 0"/>
+    <parent link="urdf_l_lower_forearm_assembly"/>
+    <child link="urdf_l_wrist_assembly"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="${X4_moderate_effort}" velocity="${X4_rated_velocity}" lower="-1.5708" upper="1.5708"/>
+    <dynamics damping="${X4_damping}" friction="${X4_friction}"/>
+  </joint>
+
+</robot>
